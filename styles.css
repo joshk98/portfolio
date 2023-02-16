@@ -1,3 +1,40 @@
+/* practice with fonts */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+a {
+    text-decoration:none;
+}
+
+/*inherit
+
+body {
+    padding: 1rem;
+}
+
+.page {
+    padding: inherit;
+}
+*/
+
+/* practice with units
+
+section {
+    height: 10rem;
+    width: 100vw;
+    padding: 5px;
+    font-size: 12pt;
+    margin: 2%
+}
+
+*/
+
+/* practice with elements */
 h1 {
     color:red;
 }
@@ -6,11 +43,81 @@ h2 {
     color:hotpink;
 }
 
+/* practice with classes
 .test-class {
     color: blue;
-}
+} */
 
+/* practice with id */
 #idpractice {
     background-color:aquamarine;
     padding: 10px;
+}
+
+/* About Me combinator */
+#about-me h3 + p {
+    color:blue;
+}
+
+/* Pseudo-Class selectors*/
+#box:hover + label {
+    color: green;
+    font-weight: bold;
+}
+
+#href:visited h3 + p {
+    color:red;
+}
+
+/* Pseudo-Element selectors */
+p::first-letter {
+    color:red;
+}
+
+a::after {
+    content: "→";
+}
+
+p {
+    position: relative;
+ }
+ /* the above code is to do with positioning, and allows us to use the z-index property below, we will get to positioning a bit later on */  
+ 
+ p::after {
+    content: "";
+    background-color: palegoldenrod;
+    height: 20px;
+    width: 50%;
+    position: absolute;
+    left: 20px;
+    z-index: -1;
+ }
+
+ /* Attribute selectors */
+label[for="test-checkbox"] {
+    background-color: blue;
+}
+
+/*display practice*/
+.div-element {
+   height: 100px;
+   width: 100px;
+   color: white;
+   background-color: red;
+   position: sticky;
+}
+.span-element {
+   height: 100px;
+   width: 100px;
+   color: white;
+   background-color: blue;
+   display: inline-block;
+}
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    background-color:yellow;
+    padding: 50px;
+    font-size: 20px;
 }

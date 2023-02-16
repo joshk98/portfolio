@@ -1,66 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <title>Joshua Kuhn</title>
-    </head>
-    <body>
-        <!-- <style>
-            h1 {
-                color: red;
-            }
-        </style> -->
-        <header>
-            <img src="./images/photo.jpeg" alt="Photo of me!">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Joshua Kuhn</title>
+</head>
+<body>
+    <!-- <style>
+        h1 {
+            color: red;
+        }
+    </style> -->
+    <header>
+        <img src="./images/photo.jpeg" alt="Photo of me!">
+        <div class="sticky">
             <h1>Joshua Kuhn</h1>
             <h2>Junior developer in the making!</h2>
-            <nav>
-                <a href="./pages/contact.html">Contact</a>
-                <a href="./pages/projects.html">Projects</a>
-            </nav>
-        </header>
-        <hr />
-        <main>
-            <section>
-                <h3 class="test-class">About Me</h3>
-                <p>I am from the United States but I live in Belfast.</p>
-                <p>My good friend Joey told me I should do a bootcamp.</p>
-                <figure>
-                    <img src="./images/plane.jpg" alt="Photo of plane">
-                    <br />
-                    <figcaption>
-                        I arrived here on a plane like this one!
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="./images/cat.jpg" alt="Photo of cat">
-                    <br />
-                    <figcaption>
-                        This is my cat.
-                    </figcaption>
-                </figure>
-            </section>
-            <section>
-                <div id="idpractice">
-                    <h3>Qualities</h3>
-                    <ol>
-                        <li>Fast learner.</li>
-                        <li>Likes to have fun.</li>
-                        <li>Good listener.</li>
-                    </ol>
-                </div>
-            </section>
-            <section>
-                <h3>Hobbies & Interests</h3>
-                <ul>
-                    <li>Watching good television.</li>
-                    <li>Going to the gym.</li>
-                    <li>Playing video games.</li>
-                </ul>
-            </section>
-        </main>
-        <br />
-        <footer>2023, Created by Joshua Kuhn</footer>
-    </body>
+        </div>
+        <nav>
+            <a href="./pages/contact.html">Contact</a>
+            <a href="./pages/projects.html">Projects</a>
+        </nav>
+    </header>
+    <hr />
+    <main>
+        <section id="about-me">
+            <h3>About Me</h3>
+            <p>I am from the United States but I live in Belfast.</p>
+            <p>My good friend Joey told me I should do a bootcamp.</p>
+            <figure>
+                <img src="./images/plane.jpg" alt="Photo of plane">
+                <br />
+                <figcaption>
+                    I arrived here on a plane like this one!
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="./images/cat.jpg" alt="Photo of cat">
+                <br />
+                <figcaption>
+                    This is my cat.
+                </figcaption>
+            </figure>
+        </section>
+        <section>
+            <div id="idpractice">
+                <h3>Qualities</h3>
+                <ol>
+                    <li>Fast learner.</li>
+                    <li>Likes to have fun.</li>
+                    <li>Good listener.</li>
+                </ol>
+            </div>
+        </section>
+        <section>
+            <h3>Hobbies & Interests</h3>
+            <ul>
+                <li>Watching good television.</li>
+                <li>Going to the gym.</li>
+                <li>Playing video games.</li>
+            </ul>
+        </section>
+        <section>
+            <div id="socials">
+                <h3>My Socials</h3>
+                <!-- These links are just a demo, so i've left the href blank. -->
+                <p>Follow me on <a href="https://www.twitter.com">Twitter</a>!</p>
+                <p>Follow me on <a href="https://www.linkedin.com">LinkedIn</a>!</p>
+                <!-- The below are form elements, we will get to those later on so don't worry
+                about these just yet, we just need them for demo purposes -->
+                <input type="checkbox" id="box" name="test-checkbox" checked />
+                <label for="test-checkbox">Check this box for some reason</label>
+                <!-- The button below is just a demo, so it doesn't do anything, we will add the
+                disabled attribute though, more on that below... -->
+                <button disabled>You can't press this...</button>
+            </div>
+        </section>
+        <section>
+            <h3>Display Practice</h3>
+                <div class="div-element">one</div>
+                <div class="div-element">two</div>
+                <div class="div-element">three</div>
+                <span class="span-element">one</span>
+                <span class="span-element">two</span>
+                <span class="span-element">three</span>
+        </section>
+    </main>
+    <br />
+    <footer>2023, Created by Joshua Kuhn</footer>
+</body>
 </html>
 
