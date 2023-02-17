@@ -5,88 +5,75 @@
     <title>Joshua Kuhn</title>
 </head>
 <body>
-    <!-- <style>
-        h1 {
-            color: red;
-        }
-    </style> -->
     <header>
-        <img src="./images/photo.jpeg" alt="Photo of me!">
-        <div class="sticky">
-            <h1>Joshua Kuhn</h1>
-            <h2>Junior developer in the making!</h2>
+        <div class="nav">
+            <a href='#'>Home</a>
+            <a href='#linkaboutme'>About Me</a>
+            <a href='#linkprojects'>Projects</a>
+            <a href='#linkcontactme'>Contact Me</a>
         </div>
-        <nav>
-            <a href="./pages/contact.html">Contact</a>
-            <a href="./pages/projects.html">Projects</a>
-        </nav>
+        <div class="titlename">Joshua Kuhn</div>
+        <div class="socials">
+            <a href="https://linkedin.com">LinkedIn</a>
+            <a href="https://twitter.com">Twitter</a>
+        </div>
     </header>
-    <hr />
     <main>
-        <section id="about-me">
-            <h3>About Me</h3>
-            <p>I am from the United States but I live in Belfast.</p>
-            <p>My good friend Joey told me I should do a bootcamp.</p>
-            <figure>
-                <img src="./images/plane.jpg" alt="Photo of plane">
-                <br />
-                <figcaption>
-                    I arrived here on a plane like this one!
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="./images/cat.jpg" alt="Photo of cat">
-                <br />
-                <figcaption>
-                    This is my cat.
-                </figcaption>
-            </figure>
-        </section>
-        <section>
-            <div id="idpractice">
-                <h3>Qualities</h3>
-                <ol>
-                    <li>Fast learner.</li>
-                    <li>Likes to have fun.</li>
-                    <li>Good listener.</li>
-                </ol>
+        <div class="profilepic">
+            <img src="./images/photoofme.jpeg" width="500" height="500" alt="Profile picture">
+        </div>
+        <div class="message">
+            <h1 id="linkaboutme">Hello there!</h1>
+            <p>I'm Josh. An aspiring junior developer based in Belfast.</p>
+        </div>
+        <div class="contactme">
+            <div class="titlecontactme">
+                <h1 id="linkcontactme">Let's stay in touch!</h1>
             </div>
-        </section>
-        <section>
-            <h3>Hobbies & Interests</h3>
-            <ul>
-                <li>Watching good television.</li>
-                <li>Going to the gym.</li>
-                <li>Playing video games.</li>
-            </ul>
-        </section>
-        <section>
-            <div id="socials">
-                <h3>My Socials</h3>
-                <!-- These links are just a demo, so i've left the href blank. -->
-                <p>Follow me on <a href="https://www.twitter.com">Twitter</a>!</p>
-                <p>Follow me on <a href="https://www.linkedin.com">LinkedIn</a>!</p>
-                <!-- The below are form elements, we will get to those later on so don't worry
-                about these just yet, we just need them for demo purposes -->
-                <input type="checkbox" id="box" name="test-checkbox" checked />
-                <label for="test-checkbox">Check this box for some reason</label>
-                <!-- The button below is just a demo, so it doesn't do anything, we will add the
-                disabled attribute though, more on that below... -->
-                <button disabled>You can't press this...</button>
+            <form class="form">
+                <fieldset>
+                    <label for="username">Your name</label>
+                    <input id="username" type="text">
+                    <br>
+                    <label for="useremail">Your email</label>
+                    <input id="useremail" type="email">
+                    <br>
+                    <label for="contactreason">Reason for contacting</label>
+                    <br>
+                    <select name="contactreason">
+                        <option value="generalinquiry" selected>General Inquiry</option>
+                        <option value="businessinquiry">Business Inquiry</option>
+                        <option value="fanclubinquiry">I'm from Josh's fanclub!</option>
+                    </select>
+                    <br>
+                    <label for="additionalcomments">Additional comments?</label>
+                    <br>
+                    <textarea id="additionalcomments"></textarea>
+                    <br>
+                <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="projects">
+            <div class="titlelatestworks">
+                <h1 id="linkprojects">Latest Works</h1>
             </div>
-        </section>
-        <section>
-            <h3>Display Practice</h3>
-                <div class="div-element">one</div>
-                <div class="div-element">two</div>
-                <div class="div-element">three</div>
-                <span class="span-element">one</span>
-                <span class="span-element">two</span>
-                <span class="span-element">three</span>
-        </section>
+            <div class="catsimulator">
+                <figure>
+                    <img src="./images/cat.jpg" width= "300" height="200" alt="Image of a funny looking cat.">
+                </figure>
+                <h2>Cat Simulator</h2>
+                <p>"Cat Simulator" is a video game where players get to play as a cat, customize their appearance, explore different environments, and engage in activities like hunting and playing with toys. The game also includes challenges to complete for advancement.</p>
+            </div>
+            <div class="zing"></div>
+                <figure>
+                    <img src="./images/zing.jpg" width="300" height="200" alt="Image of a mail application called, 'Zing!'">
+                </figure>
+                <h2>Zing!</h2>
+                <p>"Zing!" is an application that helps users write witty comebacks to annoying emails. With pre-written snarky responses and a custom insult feature, users can shut down pesky emails with a clever retort. The program also gamifies the experience, awarding points and badges for successful zingers. Say goodbye to boring email replies and hello to a more entertaining inbox with "Zing!"</p>
+            </div>
     </main>
-    <br />
-    <footer>2023, Created by Joshua Kuhn</footer>
+    <footer>
+    </footer>
 </body>
 </html>
-
