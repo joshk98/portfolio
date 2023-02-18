@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <title>Joshua Kuhn</title>
 </head>
 <body>
@@ -12,25 +15,45 @@
             <a href='#linkprojects'>Projects</a>
             <a href='#linkcontactme'>Contact Me</a>
         </div>
-        <div class="titlename">Joshua Kuhn</div>
+        <div class="pagename">Joshua Kuhn</div>
         <div class="socials">
-            <a href="https://linkedin.com">LinkedIn</a>
-            <a href="https://twitter.com">Twitter</a>
-        </div>
+            <a href="https://twitter.com" target="_blank"><img src="https://www.uos.ac.uk/sites/www.uos.ac.uk/files/2021%20Twitter%20logo%20-%20black_1.png" width="30" height="30" alt="Twitter"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="https://w7.pngwing.com/pngs/555/1002/png-transparent-computer-icons-linkedin-resume-curriculum-vitae-social-media-social-media-template-text-rectangle.png" width="30" height="30" alt="LinkedIn"></a>
+        </ul>
     </header>
     <main>
-        <div class="profilepic">
-            <img src="./images/photoofme.jpeg" width="500" height="500" alt="Profile picture">
-        </div>
-        <div class="message">
-            <h1 id="linkaboutme">Hello there!</h1>
-            <p>I'm Josh. An aspiring junior developer based in Belfast.</p>
-        </div>
-        <div class="contactme">
-            <div class="titlecontactme">
-                <h1 id="linkcontactme">Let's stay in touch!</h1>
+        <div class="aboutme" id="linkaboutme">  
+            <div class="profilepic">
+                <img src="./images/photoofme.jpeg" alt="Profile picture">
             </div>
-            <form class="form">
+            <div class="messageaboutme">
+                <h1>Hello there!</h1>
+                <p>I'm Josh. An aspiring junior developer based in Belfast.</p>
+            </div>
+        <div class="projects" id="linkprojects">
+            <div class="titleprojects">
+                <h1>Latest Works</h1>
+            </div>
+            <div class="catpic">
+                <img src="./images/cat.jpg" alt="Image of a funny looking cat.">
+            </div>
+            <div class="messagecat">
+                <h2>Cat Simulator</h2>
+                <p>"Cat Simulator" is a video game where players get to play as a cat, customize their appearance, explore different environments, and engage in activities like hunting and playing with toys. The game also includes challenges to complete for advancement.</p>
+            </div>
+            <div class="zingpic">
+                <img src="./images/zing.jpg" alt="Image of a mail application called, 'Zing!'">
+            </div>
+            <div class="messagezing"></div>
+                <h2>Zing!</h2>
+                <p>"Zing!" is an application that helps users write witty comebacks to annoying emails. With pre-written snarky responses and a custom insult feature, users can shut down pesky emails with a clever retort. The program also gamifies the experience, awarding points and badges for successful zingers. Say goodbye to boring email replies and hello to a more entertaining inbox with "Zing!"</p>
+            </div>
+        </div>
+        <div class="contactme" id="linkcontactme">
+            <div class="titlecontactme">
+                <h1>Let's stay in touch!</h1>
+            </div>
+            <form id="contactform">
                 <fieldset>
                     <label for="username">Your name</label>
                     <input id="username" type="text">
@@ -53,27 +76,8 @@
                 <button type="submit">Submit</button>
                 </fieldset>
             </form>
-        </div>
-        <div class="projects">
-            <div class="titlelatestworks">
-                <h1 id="linkprojects">Latest Works</h1>
-            </div>
-            <div class="catsimulator">
-                <figure>
-                    <img src="./images/cat.jpg" width= "300" height="200" alt="Image of a funny looking cat.">
-                </figure>
-                <h2>Cat Simulator</h2>
-                <p>"Cat Simulator" is a video game where players get to play as a cat, customize their appearance, explore different environments, and engage in activities like hunting and playing with toys. The game also includes challenges to complete for advancement.</p>
-            </div>
-            <div class="zing"></div>
-                <figure>
-                    <img src="./images/zing.jpg" width="300" height="200" alt="Image of a mail application called, 'Zing!'">
-                </figure>
-                <h2>Zing!</h2>
-                <p>"Zing!" is an application that helps users write witty comebacks to annoying emails. With pre-written snarky responses and a custom insult feature, users can shut down pesky emails with a clever retort. The program also gamifies the experience, awarding points and badges for successful zingers. Say goodbye to boring email replies and hello to a more entertaining inbox with "Zing!"</p>
-            </div>
+        </div>          
     </main>
-    <footer>
-    </footer>
+    <footer>2023, created by Joshua Kuhn</footer>
 </body>
 </html>

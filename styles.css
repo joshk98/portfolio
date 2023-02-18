@@ -1,0 +1,42 @@
+/* Basic styling */
+* { 
+    width: 320;
+    font-family:"Monsterrat", sans-serif;
+    line-height: 1.5;
+    margin: 1;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    color:rgb(46, 46, 46);
+}
+
+header {
+    align-items: center;
+    font-size: 14px;
+}
+
+header a {
+    color:rgb(46, 46, 46);
+    text-decoration: none;
+}   
+
+header .pagename {
+    font-weight: bold;
+}
+
+main .aboutme .profilepic img {
+    width: 80vw;
+    max-width: 400px;
+}
+
+main .projects {
+    background-color: rgb(132, 168, 143);
+    color: white;
+}
+
+main .projects img {
+    width: 60vw;
+    max-width: 300px;
+}
