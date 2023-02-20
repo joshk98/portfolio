@@ -11,6 +11,10 @@
 }
 
 body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     font-size: 1rem;
     color: #141c3a;
@@ -64,18 +68,18 @@ main {
 .projects {
     background-color: #2a3353;
     color: white;
-    padding: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 
 #contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #2a3353;
     color: white;
-    font-weight: bold;
-    padding: 10px;
+    padding: 5px;
 }
 
 /* Footer styling */
 
-footer {
-    margin: 10px 0;
-}
