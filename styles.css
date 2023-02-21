@@ -178,8 +178,8 @@ footer {
 }
 
 /* Media query, grid */
-
-@media (min-width: 769) {
+/*
+@media screen and (min-width: 768px){
     .gridcontainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -188,20 +188,24 @@ footer {
             "aboutme aboutme"
             "projects contactme";
         grid-gap: 10px;
+        margin: 0;
+        padding: 0;
     }
 
     .aboutme {
-        grid-area: "aboutme";
-    }
-
+        grid-area: aboutme;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+      }
+    
     .profilepic {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
+        grid-column: 1;
     }
-      
+    
     .messageaboutme {
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
+        grid-column: 2;
     }
 
     .projects {
@@ -216,3 +220,4 @@ footer {
         grid-area: footer;
     }
 }
+*/
