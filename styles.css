@@ -8,6 +8,7 @@
 * { 
     font-family: serif;
     line-height: 1.5;
+    box-sizing: border-box;
 }
 
 body {
@@ -22,64 +23,94 @@ body {
 
 /* Header styling */
 
-header {
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    /*floating navbar setup*/
+    overflow: hidden;
+    background-color: #2a3353;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav a {
+    font-size: .9rem;
+    text-decoration: none;
+    color: white;
+
+    /*floating navbar setup*/
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 7px 8px;
+}
+
+.nav a:hover {
+    background: white;
+    color:#141c3a;
+}
+
+/* Main styling */
+
+main {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.aboutme {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    align-items: center;
-    margin: 10px 0;
+}
+
+.aboutme img {
+    width: 80vw;
+    margin-bottom: 30px;
 }
 
 .messageaboutme h1 {
     font-size: 2.5rem;
 }
 
-.nav, .pagename, .socials {
-    padding: 2.5px;
-}
-
-.nav a {
-    text-decoration: none;
-    color: #141c3a;
-}
-
- .pagename {
-    font-weight: bold;
-}
-
-/* Main styling */
-
-main {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 0;
-}
-
-.aboutme img {
-    width: 80vw;
-}
-
 .projects img {
-    width: 60vw;
+    width: 70vw;
 }
 
 .projects {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     background-color: #2a3353;
     color: white;
     padding: 5px;
-    margin: 5px;
+}
+
+.contactme {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 #contactform {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #2a3353;
+    border-color: #2a3353;
     color: white;
     padding: 5px;
+}
+
+fieldset {
+    border: none;
 }
 
 /* Footer styling */
 
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 2.5px
+}
