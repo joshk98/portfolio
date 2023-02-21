@@ -14,7 +14,7 @@
         <a href='#linkprojects'>Projects</a>
         <a href='#linkcontactme'>Contact Me</a>
     </header>
-    <main>
+    <main class="gridcontainer">
         <div class="aboutme" id="linkaboutme">  
             <div class="messageaboutme">
                 <h1>Hello there!</h1>
@@ -52,15 +52,15 @@
             </div>
             <form id="contactform">
                 <fieldset>
-                    <label for="username">Your name</label>
+                    <label for="username">Your name:</label>
                     <input id="username" type="text">
                     <br>
-                    <label for="useremail">Your email</label>
+                    <label for="useremail">Your email:</label>
                     <input id="useremail" type="email">
                     <br>
-                    <label for="contactreason">Reason for contacting</label>
+                    <label for="contactreason">Reason for contacting:</label>
                     <br>
-                    <select name="contactreason">
+                    <select id="contactreason">
                         <option value="generalinquiry" selected>General Inquiry</option>
                         <option value="businessinquiry">Business Inquiry</option>
                         <option value="fanclubinquiry">I'm from Josh's fanclub!</option>
@@ -70,7 +70,7 @@
                     <br>
                     <textarea id="additionalcomments"></textarea>
                     <br>
-                <button type="submit">Submit</button>
+                <button id="submitbutton">Submit</button>
                 </fieldset>
             </form>
         </div>          
