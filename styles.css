@@ -7,6 +7,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 5rem;
+    line-height: 1;
 }
 
 * { 
@@ -23,14 +24,22 @@ body {
     text-align: center;
     font-size: 2rem;
     color: #16272c;
+
+    background-image: url(./images/backgroundimg.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: stretch;
+    background-attachment:fixed;
+    z-index: -1;
 }
 
 .profilepic img {
-    clip-path:circle();
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .projects img {
-    border-radius: 40px;
+    border-radius: 50px;
 }
 
 .socials img {
@@ -53,6 +62,8 @@ header {
     width: 100%;
 
     z-index: 1000;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 header a {
@@ -112,8 +123,9 @@ main {
     background-color: #2a5351;
     color: white;
     padding: 20px;
-    border-radius: 40px;
+    border-radius: 50px;
     margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .catproject, .zingproject {
@@ -122,10 +134,6 @@ main {
 
 .projects img {
     width: 450px;
-}
-
-.messagecat, .messagezing {
-    margin: 20px;
 }
 
 /* Main - contactme */
@@ -146,12 +154,14 @@ main {
     border-color: #2a5351;
     color: white;
     padding: 20px;
-    border-radius: 40px;
+    border-radius: 50px;
     margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 fieldset {
     border: none;
+    line-height: 1.75;
 }
 
 #username, #useremail, #contactreason {
@@ -161,8 +171,8 @@ fieldset {
 }
 
 #additionalcomments {
-    width: 600px;
-    height: 200px;
+    width: 100%;
+    height: 100px;
     font-size: 1.5rem;
 }
 
@@ -179,12 +189,16 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    margin: 2.5px
+    margin: 10px;
+}
+
+.socials {
+    margin-bottom: 20px;
 }
 
 /* Media query, grid */
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
 
     /*Grid setup*/
 
@@ -204,6 +218,10 @@ footer {
 
     .projects {
         grid-area: projects;
+    }
+
+    h1 {
+        font-size: 6rem;
     }
 
     /* aboutme */
@@ -228,16 +246,42 @@ footer {
 
     /* projects */
 
+    .projects {
+        display: flex;
+        width: 75vw;
+    }
+
+    .projects img {
+        width: 30vw;
+        padding: 10px;
+    }
+
     .catproject, .zingproject {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
 
     .messagecat, .messagezing {
         text-align: left;
-        margin: 20px;
-        max-width: 1000px;
+        width: 30vw;
+        padding: 10px;
     }
+
+    /* contactme */
+
+    .contactme {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .titlecontactme {
+        width: 30vw;
+        text-align: left;
+    }
+
 }
