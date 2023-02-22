@@ -25,11 +25,15 @@ body {
     color: #16272c;
 }
 
-img {
+.profilepic img {
+    clip-path:circle();
+}
+
+.projects img {
     border-radius: 40px;
 }
 
-.socials img{
+.socials img {
     border-radius: 0px;
 }
 
@@ -47,6 +51,8 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+
+    z-index: 1000;
 }
 
 header a {
@@ -90,7 +96,7 @@ main {
 
 .aboutme img {
     width: 600px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .messageaboutme {
@@ -105,14 +111,13 @@ main {
     flex-direction: column;
     background-color: #2a5351;
     color: white;
-    padding: 10px;
+    padding: 20px;
     border-radius: 40px;
     margin: 20px;
 }
 
 .catproject, .zingproject {
     flex: 1 0 200px;
-    margin: 20px;
 }
 
 .projects img {
@@ -178,46 +183,61 @@ footer {
 }
 
 /* Media query, grid */
-/*
+
 @media screen and (min-width: 768px){
+
+    /*Grid setup*/
+
     .gridcontainer {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
         grid-template-areas: 
-            "aboutme aboutme"
-            "projects contactme";
-        grid-gap: 10px;
-        margin: 0;
-        padding: 0;
+            "aboutme"
+            "projects";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
     }
-
+    
     .aboutme {
         grid-area: aboutme;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        grid-gap: 10px;
-      }
-    
-    .profilepic {
-        grid-column: 1;
-    }
-    
-    .messageaboutme {
-        grid-column: 2;
     }
 
     .projects {
         grid-area: projects;
     }
 
-    .contactme {
-        grid-area: contactme;
+    /* aboutme */
+
+    .aboutme {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: row-reverse;
+        margin-top: 70px;
     }
 
-    .footer {
-        grid-area: footer;
+    .messageaboutme {
+        text-align: left;
+        margin: 20px;
+        max-width: 700px;
+    }
+
+    .aboutme img {
+        margin: 20px;
+    }
+
+    /* projects */
+
+    .catproject, .zingproject {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .messagecat, .messagezing {
+        text-align: left;
+        margin: 20px;
+        max-width: 1000px;
     }
 }
-*/
