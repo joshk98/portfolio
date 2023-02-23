@@ -6,7 +6,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     line-height: 1;
 }
 
@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.25rem;
     color: #16272c;
 
     background-image: url(./images/backgroundimg.png);
@@ -67,7 +67,7 @@ header {
 }
 
 header a {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
     color: white;
 
@@ -76,7 +76,7 @@ header a {
     display: block;
     text-align: center;
     padding: 7px 8px;
-    margin: 5px;
+    margin: 2.5px;
 }
 
 header a:hover {
@@ -87,8 +87,7 @@ header a:hover {
 /* Main */
 
 main {
-    padding: 5px;
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,15 +98,15 @@ main {
 
 .aboutme {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
 }
 
 .aboutme img {
-    width: 600px;
-    margin-bottom: 20px;
+    width: 95%;
+    margin-bottom: 40px;
 }
 
 .messageaboutme {
@@ -118,22 +117,24 @@ main {
 
 .projects {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     background-color: #2a5351;
     color: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 50px;
-    margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 95%;
 }
 
 .catproject, .zingproject {
     flex: 1 0 200px;
+    margin: 10px;
+    margin-top: 20px;
 }
 
 .projects img {
-    width: 450px;
+    width: 85%;
 }
 
 /* Main - contactme */
@@ -147,39 +148,55 @@ main {
 }
 
 #contactform {
+    font-size: 1.125rem;
     display: flex;
     justify-content: center;
     text-align: left;
     background-color: #2a5351;
     border-color: #2a5351;
     color: white;
-    padding: 20px;
+    width: 95%;
     border-radius: 50px;
-    margin: 20px;
+    margin: 5px;
+    padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 fieldset {
     border: none;
     line-height: 1.75;
+    margin: 10px;
+    width: 100%;
 }
 
 #username, #useremail, #contactreason {
-    width: fit-content;
+    width: 100%;
     height: auto;
-    font-size: 1.5rem;
+    font-size: 1.125rem;
+    border-radius: 10px;
+    border-color: #2a5351;
 }
 
 #additionalcomments {
     width: 100%;
     height: 100px;
-    font-size: 1.5rem;
+    font-size: 1.125rem;
+    border-radius: 10px;
+    border-color: #2a5351;
 }
 
 #submitbutton {
-    font-size: 1.5rem;
+    font-size: 1.125rem;
     width: auto;
     height: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #2a5351;
+}
+
+.titlecontactme {
+    margin: 20px;
 }
 
 /* Footer styling */
@@ -198,7 +215,7 @@ footer {
 
 /* Media query, grid */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1081px) {
 
     /*Grid setup*/
 
@@ -221,7 +238,16 @@ footer {
     }
 
     h1 {
-        font-size: 6rem;
+        font-size: 5rem;
+        line-height: 1.125;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    header a {
+        font-size: 1.25rem;
     }
 
     /* aboutme */
@@ -229,30 +255,34 @@ footer {
     .aboutme {
         display: flex;
         justify-content: center;
-        align-items: start;
+        align-items: center;
         flex-direction: row-reverse;
+        margin: 25px;
         margin-top: 70px;
     }
 
     .messageaboutme {
         text-align: left;
-        margin: 20px;
-        max-width: 700px;
+        max-width: 30%;
+        padding-left: 50px;
     }
 
     .aboutme img {
-        margin: 20px;
+        max-width: 600px;
     }
 
     /* projects */
 
     .projects {
         display: flex;
-        width: 75vw;
+        justify-content: center;
+        width: fit-content;
+        max-width: 70%;
+        padding-bottom: 40px;
     }
 
     .projects img {
-        width: 30vw;
+        max-width: 550px;
         padding: 10px;
     }
 
@@ -261,11 +291,12 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: row-reverse;
+        margin: 0;
     }
 
     .messagecat, .messagezing {
         text-align: left;
-        width: 30vw;
+        max-width: 40%;
         padding: 10px;
     }
 
@@ -274,14 +305,23 @@ footer {
     .contactme {
         display: flex;
         justify-content: center;
-        align-items: start;
+        align-items: center;
         flex-direction: row;
-        margin-top: 20px;
+        margin: 25px;
     }
 
     .titlecontactme {
-        width: 30vw;
+        max-width: 30%;
         text-align: left;
     }
 
+    #contactform {
+        width: fit-content;
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+
+    #username, #useremail, #contactreason, #additionalcomments, #submitbutton {
+        font-size: 1.5rem;
+    }
 }
