@@ -5,39 +5,68 @@ exports[`Projects renders correctly 1`] = `
   <div
     class="projects-container"
   >
-    <div
-      class="projectcard-container"
+    <ul
+      class="projects-container-card"
     >
-      <ul
-        class="projectcard-container-list"
+      <li
+        class="projects-container-card-title"
       >
-        <li
-          class="projectcard-container-list-title"
+        <a
+          href="https://github.com/joshk98/gourmet-guide"
+          rel="noopener noreferrer"
+          target="_blank"
         >
-          Title
-        </li>
-        <li
-          class="projectcard-container-list-type"
+          Gourmet Guide
+        </a>
+      </li>
+      <li
+        class="projects-container-card-type"
+      >
+        App
+      </li>
+      <li
+        class="projects-container-card-image"
+      >
+        <img
+          alt=""
+          src=""
+        />
+      </li>
+      <li
+        class="projects-container-card-description"
+      />
+    </ul>
+    <ul
+      class="projects-container-card"
+    >
+      <li
+        class="projects-container-card-title"
+      >
+        <a
+          href=""
+          rel="noopener noreferrer"
+          target="_blank"
         >
-          Type
-        </li>
-        <li
-          class="projectcard-container-list-image"
-        >
-          Image
-        </li>
-        <li
-          class="projectcard-container-list-description"
-        >
-          Description
-        </li>
-        <li
-          class="projectcard-container-list-link"
-        >
-          Link
-        </li>
-      </ul>
-    </div>
+          Breakout Game
+        </a>
+      </li>
+      <li
+        class="projects-container-card-type"
+      >
+        Game
+      </li>
+      <li
+        class="projects-container-card-image"
+      >
+        <img
+          alt=""
+          src=""
+        />
+      </li>
+      <li
+        class="projects-container-card-description"
+      />
+    </ul>
   </div>
 </DocumentFragment>
 `;

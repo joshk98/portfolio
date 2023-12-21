@@ -32,26 +32,118 @@ exports[`App renders correctly 1`] = `
             Projects
           </a>
         </li>
-        <li
-          class="navbar-container-list-contactme"
-        >
-          <a
-            class=""
-            href="/contactme"
-          >
-            Contact Me
-          </a>
-        </li>
       </ul>
     </nav>
     <div
       class="aboutme-container"
     >
-      About Me
       <div
-        class="skill-container"
+        class="aboutme-container-description"
       >
-        Skills
+        Hello there! I am Josh, a project manager based in Belfast, UK. I have a passion for web development and project management. Some of my qualifications include:
+        <ul
+          class="aboutme-container-description-list"
+        >
+          <li>
+            Masters degree in Business Administration & Project Management
+          </li>
+          <li>
+            Completed coursework in Software Engineering
+          </li>
+          <li>
+            Professional Scrum Master certification
+          </li>
+        </ul>
+        I created this website to demonstrate my skills in web development and to share projects I am working on.
+      </div>
+      <div
+        class="skills-container"
+      >
+        <div
+          class="skills-container-image"
+        >
+          <img
+            alt="javascript"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          />
+        </div>
+        <div
+          class="skills-container-image"
+        >
+          <img
+            alt="react"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          />
+        </div>
+        <div
+          class="skills-container-image"
+        >
+          <img
+            alt="html"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+          />
+        </div>
+        <div
+          class="skills-container-image"
+        >
+          <img
+            alt="css"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+          />
+        </div>
+        <div
+          class="skills-container-image"
+        >
+          <img
+            alt="postgresql"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+          />
+        </div>
+        <div
+          class="skills-container-image"
+        >
+          <img
+            alt="docker"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+          />
+        </div>
+        <div
+          class="skills-container-image"
+        >
+          <img
+            alt="aws"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+          />
+        </div>
+        <div
+          class="skills-container-image"
+        >
+          <img
+            alt="git"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+          />
+        </div>
+        <div
+          class="skills-container-image"
+        >
+          <img
+            alt="github"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+          />
+        </div>
+        <div
+          class="skills-container-image"
+        >
+          <img
+            alt="jira"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+          />
+        </div>
+      </div>
+      <div
+        class="contactme-container"
+      >
+        Contact Me
       </div>
     </div>
   </div>
