@@ -13,9 +13,6 @@ function NavBar() {
         <li className="navbar-container-list-projects">
           <NavLink to="/projects">Projects</NavLink>
         </li>
-        <li className="navbar-container-list-contactme">
-          <NavLink to="/contactme">Contact Me</NavLink>
-        </li>
       </ul>
     </nav>
   );

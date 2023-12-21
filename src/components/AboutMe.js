@@ -1,5 +1,6 @@
 import React from "react";
 import Skills from "./Skills";
+import ContactMe from "./ContactMe";
 
 import "../styles/aboutme.css";
 
@@ -18,9 +19,10 @@ function AboutMe() {
           <li>Professional Scrum Master certification</li>
         </ul>
         I created this website to demonstrate my skills in web development and
-        to share projects I am working on. Please enjoy!
+        to share projects I am working on.
       </div>
       <Skills />
+      <ContactMe />
     </div>
   );
 }
