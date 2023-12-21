@@ -2,8 +2,15 @@
 
 exports[`AboutMe renders correctly 1`] = `
 <DocumentFragment>
-  <div>
+  <div
+    class="aboutme-container"
+  >
     About Me
+    <div
+      class="skill-container"
+    >
+      Skills
+    </div>
   </div>
 </DocumentFragment>
 `;

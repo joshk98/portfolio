@@ -12,7 +12,7 @@ exports[`App renders correctly 1`] = `
         class="navbar-container-list"
       >
         <li
-          class="navbar-container-list-item"
+          class="navbar-container-list-aboutme"
         >
           <a
             aria-current="page"
@@ -23,7 +23,7 @@ exports[`App renders correctly 1`] = `
           </a>
         </li>
         <li
-          class="navbar-container-list-item"
+          class="navbar-container-list-projects"
         >
           <a
             class=""
@@ -33,7 +33,7 @@ exports[`App renders correctly 1`] = `
           </a>
         </li>
         <li
-          class="navbar-container-list-item"
+          class="navbar-container-list-contactme"
         >
           <a
             class=""
@@ -44,8 +44,15 @@ exports[`App renders correctly 1`] = `
         </li>
       </ul>
     </nav>
-    <div>
+    <div
+      class="aboutme-container"
+    >
       About Me
+      <div
+        class="skill-container"
+      >
+        Skills
+      </div>
     </div>
   </div>
 </DocumentFragment>

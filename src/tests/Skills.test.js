@@ -1,10 +1,10 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import ProjectTemplate from "../components/projects/ProjectTemplate";
+import Skills from "../components/Skills";
 
-describe("ProjectTemplate", () => {
+describe("Skills", () => {
   it("renders correctly", () => {
-    const { asFragment } = render(<ProjectTemplate />);
+    const { asFragment } = render(<Skills />);
 
     expect(asFragment()).toMatchSnapshot();
   });

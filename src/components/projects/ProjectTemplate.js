@@ -1,15 +1,16 @@
 import React from "react";
 
-import "../../styles/projectcard.css";
+import "../../styles/projecttemplate.css";
 
 function ProjectTemplate() {
   return (
     <div className="projectcard-container">
       <ul className="projectcard-container-list">
-        <li className="projectcard-container-list-item">Title</li>
-        <li className="projectcard-container-list-item">Type</li>
-        <li className="projectcard-container-list-item">Image</li>
-        <li className="projectcard-container-list-item">Description</li>
+        <li className="projectcard-container-list-title">Title</li>
+        <li className="projectcard-container-list-type">Type</li>
+        <li className="projectcard-container-list-image">Image</li>
+        <li className="projectcard-container-list-description">Description</li>
+        <li className="projectcard-container-list-link">Link</li>
       </ul>
     </div>
   );

@@ -1,9 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ProjectCard renders correctly 1`] = `
+exports[`Skills renders correctly 1`] = `
 <DocumentFragment>
-  <div>
-    ProjectCard
+  <div
+    class="skill-container"
+  >
+    Skills
   </div>
 </DocumentFragment>
 `;

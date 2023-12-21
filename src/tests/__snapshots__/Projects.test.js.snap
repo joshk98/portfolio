@@ -5,8 +5,38 @@ exports[`Projects renders correctly 1`] = `
   <div
     class="projects-container"
   >
-    <div>
-      ProjectCard
+    <div
+      class="projectcard-container"
+    >
+      <ul
+        class="projectcard-container-list"
+      >
+        <li
+          class="projectcard-container-list-title"
+        >
+          Title
+        </li>
+        <li
+          class="projectcard-container-list-type"
+        >
+          Type
+        </li>
+        <li
+          class="projectcard-container-list-image"
+        >
+          Image
+        </li>
+        <li
+          class="projectcard-container-list-description"
+        >
+          Description
+        </li>
+        <li
+          class="projectcard-container-list-link"
+        >
+          Link
+        </li>
+      </ul>
     </div>
   </div>
 </DocumentFragment>

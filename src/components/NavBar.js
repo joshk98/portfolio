@@ -7,13 +7,13 @@ function NavBar() {
   return (
     <nav className="navbar-container">
       <ul className="navbar-container-list">
-        <li className="navbar-container-list-item">
+        <li className="navbar-container-list-aboutme">
           <NavLink to="/">About Me</NavLink>
         </li>
-        <li className="navbar-container-list-item">
+        <li className="navbar-container-list-projects">
           <NavLink to="/projects">Projects</NavLink>
         </li>
-        <li className="navbar-container-list-item">
+        <li className="navbar-container-list-contactme">
           <NavLink to="/contactme">Contact Me</NavLink>
         </li>
       </ul>
