@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="projects-container"
+  >
+    <div>
+      ProjectCard
+    </div>
+  </div>
+</DocumentFragment>
+`;

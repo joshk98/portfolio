@@ -1,7 +1,9 @@
 import React from "react";
 
+import "../styles/aboutme.css";
+
 function AboutMe() {
-  return <div>AboutMe</div>;
+  return <div>About Me</div>;
 }
 
 export default AboutMe;

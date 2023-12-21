@@ -5,10 +5,12 @@ import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import ContactMe from "./ContactMe";
 
+import "../styles/app.css";
+
 function App() {
   return (
     <Router>
-      <div className="app">
+      <div className="app-container">
         <NavBar />
         <Routes>
           <Route path="/" element={<AboutMe />} />
