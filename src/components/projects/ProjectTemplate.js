@@ -4,13 +4,13 @@ import "../../styles/projecttemplate.css";
 
 function ProjectTemplate() {
   return (
-    <div className="projectcard-container">
-      <ul className="projectcard-container-list">
-        <li className="projectcard-container-list-title">Title</li>
-        <li className="projectcard-container-list-type">Type</li>
-        <li className="projectcard-container-list-image">Image</li>
-        <li className="projectcard-container-list-description">Description</li>
-        <li className="projectcard-container-list-link">Link</li>
+    <div className="template-container">
+      <ul className="template-container-list">
+        <li className="template-container-list-title">Title Link</li>
+        <li className="template-container-list-type">Type</li>
+        <li className="template-container-list-image">Image</li>
+        <li className="template-container-list-description">Description</li>
+        <li className="template-container-list-tech">Tech</li>
       </ul>
     </div>
   );

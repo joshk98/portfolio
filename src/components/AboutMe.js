@@ -6,7 +6,20 @@ import "../styles/aboutme.css";
 function AboutMe() {
   return (
     <div className="aboutme-container">
-      About Me
+      <div className="aboutme-container-description">
+        Hello there! I am Josh, a project manager based in Belfast, UK. I have a
+        passion for web development and project management. Some of my
+        qualifications include:
+        <ul className="aboutme-container-description-list">
+          <li>
+            Masters degree in Business Administration & Project Management
+          </li>
+          <li>Completed coursework in Software Engineering</li>
+          <li>Professional Scrum Master certification</li>
+        </ul>
+        I created this website to demonstrate my skills in web development and
+        to share projects I am working on. Please enjoy!
+      </div>
       <Skills />
     </div>
   );
