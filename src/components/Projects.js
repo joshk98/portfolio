@@ -4,7 +4,6 @@ import "../styles/projects.css";
 
 const projectsData = [
   {
-    id: 1,
     title: "Gourmet Guide",
     link: "https://github.com/joshk98/gourmet-guide",
     type: "App",
@@ -13,9 +12,8 @@ const projectsData = [
     description: "",
   },
   {
-    id: 2,
     title: "Breakout Game",
-    link: "",
+    link: "https://github.com/joshk98/game-breakout",
     type: "Game",
     src: "",
     alt: "",
@@ -23,10 +21,15 @@ const projectsData = [
   },
 ];
 
+const mappedProjectsData = projectsData.map((project, index) => ({
+  ...project,
+  id: index + 1,
+}));
+
 function Projects() {
   return (
     <div className="projects-container">
-      {projectsData.map((project) => (
+      {mappedProjectsData.map((project) => (
         <ul key={project.id} className="projects-container-card">
           <li className="projects-container-card-title">
             <a href={project.link} target="_blank" rel="noopener noreferrer">
