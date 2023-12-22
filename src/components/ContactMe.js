@@ -5,7 +5,7 @@ import "../styles/contactme.css";
 function ContactMe() {
   return (
     <div className="contactme-container" id="contactme-section">
-      Contact Me
+      Let us stay in touch!
     </div>
   );
 }

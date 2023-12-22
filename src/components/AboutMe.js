@@ -11,7 +11,7 @@ function AboutMe() {
         Hello! I am Josh, a project manager based in Belfast, UK. I have a
         passion for web development and project management. Some of my
         qualifications include:
-        <ul className="aboutme-container-description-list">
+        <ul>
           <li>
             Masters degree in Business Administration & Project Management
           </li>

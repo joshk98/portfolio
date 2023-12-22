@@ -24,7 +24,7 @@ function Skills() {
   return (
     <div className="skills-container">
       {mappedSkillsData.map((skill) => (
-        <div key={skill.id} className="skills-container-image">
+        <div key={skill.id}>
           <img src={skill.src} alt={skill.alt} />
         </div>
       ))}
