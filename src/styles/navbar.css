@@ -10,12 +10,13 @@
   top: 0;
   width: 100%;
   z-index: 1000;
+  transition: transform 0.3s ease;
 }
 
 .navbar-container-list {
   list-style-type: none;
-  padding: 0;
-  margin: 0.5em;
+  padding: 0.25em;
+  margin: 0;
   display: flex;
 }
 
@@ -28,6 +29,7 @@
   text-decoration: none;
   color: white;
   font-size: 1.25rem;
+  position: relative;
 }
 
 .navbar-container-list a::before {
@@ -56,14 +58,9 @@
 
   .navbar-container-list {
     justify-content: center;
-    margin: 0.25em;
   }
 }
 
-.navbar-container {
-  transition: transform 0.3s ease;
-}
-
-.navbar-container.navbar-hidden {
+.navbar-hidden {
   transform: translateY(-100%);
 }
