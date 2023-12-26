@@ -10,7 +10,6 @@ const skillsData = [
   "docker",
   "amazonwebservices",
   "git",
-  "github",
   "jira",
 ];
 
@@ -23,11 +22,27 @@ const mappedSkillsData = skillsData.map((skill, index) => ({
 function Skills() {
   return (
     <div className="skills-container">
-      {mappedSkillsData.map((skill) => (
-        <div key={skill.id}>
-          <img src={skill.src} alt={skill.alt} />
-        </div>
-      ))}
+      <div className="skills-container-images">
+        {mappedSkillsData.map((skill) => (
+          <div key={skill.id}>
+            <img src={skill.src} alt={skill.alt} />
+          </div>
+        ))}
+        <img
+          src="https://cdn.worldvectorlogo.com/logos/asana-1.svg"
+          alt="asana"
+        />
+      </div>
+      <div className="skills-container-more">
+        Some more of my qualifications include:
+        <ul>
+          <li>
+            Masters degree in Business Administration & Project Management
+          </li>
+          <li>Completed coursework in Software Engineering</li>
+          <li>Professional Scrum Master certification</li>
+        </ul>
+      </div>
     </div>
   );
 }

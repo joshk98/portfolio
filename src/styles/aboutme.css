@@ -1,14 +1,8 @@
 .aboutme-container {
   margin: 0;
-}
-
-.aboutme-container-description {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: 1.25rem;
-  margin: 2em;
-  padding: 1em;
 }

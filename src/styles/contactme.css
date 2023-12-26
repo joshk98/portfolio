@@ -1,0 +1,27 @@
+img {
+  width: 75px;
+}
+
+.contactme-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+
+.contactme-container-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contactme-container img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.contactme-container img:hover {
+  transform: scale(1.1);
+}

@@ -4,16 +4,27 @@ img {
 
 .skills-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
+  align-items: center;
   width: 100%;
   background-color: red;
 }
 
+.skills-container-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-container-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .skills-container img {
-  margin: 1em;
-  padding: 0.5em;
   transition: transform 0.3s ease-in-out;
 }
 
