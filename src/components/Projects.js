@@ -1,23 +1,16 @@
 import React, { useState } from "react";
-
 import "../styles/projects.css";
 
 const projectsData = [
   {
     title: "Gourmet Guide",
     link: "https://github.com/joshk98/gourmet-guide",
-    type: "App",
-    src: "",
-    alt: "",
     description:
       "Gourmet Guide is my final project with Command Shift aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.",
   },
   {
     title: "Breakout Game",
     link: "https://github.com/joshk98/game-breakout",
-    type: "Game",
-    src: "",
-    alt: "",
     description:
       "Breakout is a game made with Phaser.js aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.",
   },
@@ -30,18 +23,11 @@ const mappedProjectsData = projectsData.map((project, index) => ({
 
 function Projects() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [filterType, setFilterType] = useState("");
 
   const filteredProjects = mappedProjectsData
-    .filter((project) => {
-      const titleMatch = project.title
-        .toLowerCase()
-        .includes(searchTerm.toLowerCase());
-      const typeMatch =
-        filterType === "" ||
-        project.type.toLowerCase() === filterType.toLowerCase();
-
-      return titleMatch && typeMatch;
+    .filter(({ title }) => {
+      const titleMatch = title.toLowerCase().includes(searchTerm.toLowerCase());
+      return titleMatch;
     })
     .sort((a, b) => a.title.localeCompare(b.title));
 
@@ -54,33 +40,25 @@ function Projects() {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        <select
-          value={filterType}
-          onChange={(e) => setFilterType(e.target.value)}
-        >
-          <option value="">All Types</option>
-          <option value="App">App</option>
-          <option value="Game">Game</option>
-          <option value="Website">Website</option>
-        </select>
       </div>
-
-      {filteredProjects.map((project) => (
-        <ul key={project.id} className="projects-container-cards">
-          <li className="projects-container-cards-title">
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
+      <div className="projects-container-cards-group">
+        {filteredProjects.map((project) => (
+          <div key={project.id} className="projects-container-card">
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={project.title}
+              className="projects-container-card-title"
+            >
               {project.title}
             </a>
-          </li>
-          <li className="projects-container-cards-type">{project.type}</li>
-          <li>
-            <img src={project.src} alt={project.alt} />
-          </li>
-          <li className="projects-container-cards-description">
-            {project.description}
-          </li>
-        </ul>
-      ))}
+            <div className="projects-container-card-description">
+              {project.description}
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

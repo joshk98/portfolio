@@ -7,20 +7,16 @@
   justify-content: center;
 }
 
-.projects-container-cards {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 20em;
-  height: 10em;
+.projects-container-cards-group {
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+  padding: 0.5em;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
-.projects-container-cards-description {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: wrap;
-}
-
-.projects-container-cards img {
-  width: 100%;
+.projects-container-card {
+  margin: 1em;
+  padding: 0.5em;
+  width: 10em;
 }
