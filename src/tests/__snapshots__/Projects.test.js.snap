@@ -5,68 +5,55 @@ exports[`Projects renders correctly 1`] = `
   <div
     class="projects-container"
   >
-    <ul
-      class="projects-container-card"
+    <div
+      class="projects-container-search"
     >
-      <li
-        class="projects-container-card-title"
+      <input
+        placeholder="Search by title"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="projects-container-cards-group"
+    >
+      <div
+        class="projects-container-card"
       >
         <a
+          aria-label="Breakout Game"
+          class="projects-container-card-title"
+          href="https://github.com/joshk98/game-breakout"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Breakout Game
+        </a>
+        <div
+          class="projects-container-card-description"
+        >
+          Breakout is a game made with Phaser.js aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.
+        </div>
+      </div>
+      <div
+        class="projects-container-card"
+      >
+        <a
+          aria-label="Gourmet Guide"
+          class="projects-container-card-title"
           href="https://github.com/joshk98/gourmet-guide"
           rel="noopener noreferrer"
           target="_blank"
         >
           Gourmet Guide
         </a>
-      </li>
-      <li
-        class="projects-container-card-type"
-      >
-        App
-      </li>
-      <li
-        class="projects-container-card-image"
-      >
-        <img
-          alt=""
-          src=""
-        />
-      </li>
-      <li
-        class="projects-container-card-description"
-      />
-    </ul>
-    <ul
-      class="projects-container-card"
-    >
-      <li
-        class="projects-container-card-title"
-      >
-        <a
-          href=""
-          rel="noopener noreferrer"
-          target="_blank"
+        <div
+          class="projects-container-card-description"
         >
-          Breakout Game
-        </a>
-      </li>
-      <li
-        class="projects-container-card-type"
-      >
-        Game
-      </li>
-      <li
-        class="projects-container-card-image"
-      >
-        <img
-          alt=""
-          src=""
-        />
-      </li>
-      <li
-        class="projects-container-card-description"
-      />
-    </ul>
+          Gourmet Guide is my final project with Command Shift aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.
+        </div>
+      </div>
+    </div>
   </div>
 </DocumentFragment>
 `;

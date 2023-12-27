@@ -1,8 +1,7 @@
 .projects-container {
-  margin: 0;
+  margin-top: 5.5em;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -10,13 +9,40 @@
 .projects-container-cards-group {
   display: flex;
   flex-direction: row;
-  margin: 1em;
+  margin: 1em 0.5em;
   padding: 0.5em;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .projects-container-card {
-  margin: 1em;
-  padding: 0.5em;
-  width: 10em;
+  margin: 1.5em;
+  padding: 1em;
+  width: 20em;
+  height: 10em;
+  overflow: hidden;
+  background-color: red;
+}
+
+.projects-container-card-title,
+.projects-container-card-description {
+  margin: 0.5em;
+}
+
+.projects-container-card-description {
+  margin-top: 1em;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+@media (max-width: 600px) {
+  .projects-container-cards-group {
+    flex-direction: column;
+  }
+
+  .projects-container-card {
+    margin: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
 }

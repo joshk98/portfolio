@@ -1,25 +1,22 @@
-img {
-  width: 75px;
-}
-
 .contactme-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
   width: 100%;
   background-color: white;
+  margin: 1em;
+  margin-left: 0;
 }
 
 .contactme-container-links {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
 .contactme-container img {
+  width: 50px;
   transition: transform 0.3s ease-in-out;
+  padding: 0.5em;
 }
 
 .contactme-container img:hover {

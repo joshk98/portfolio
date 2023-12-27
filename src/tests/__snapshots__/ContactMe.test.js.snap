@@ -2,8 +2,42 @@
 
 exports[`ContactMe renders correctly 1`] = `
 <DocumentFragment>
-  <div>
-    Contact Me
+  <div
+    class="contactme-container"
+  >
+    Let us stay in touch!
+    <div
+      class="contactme-container-links"
+    >
+      <a
+        href="https://linkedin.com/in/joshua-kuhn"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="linkedin"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+        />
+      </a>
+      <a
+        href="https://github.com/joshk98"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="github"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+        />
+      </a>
+      <a
+        href="mailto:joshkkuhn@gmail.com"
+      >
+        <img
+          alt="email"
+          src="https://www.svgrepo.com/show/303161/gmail-icon-logo.svg"
+        />
+      </a>
+    </div>
   </div>
 </DocumentFragment>
 `;

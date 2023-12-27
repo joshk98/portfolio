@@ -33,16 +33,6 @@ function Skills() {
           alt="asana"
         />
       </div>
-      <div className="skills-container-more">
-        Some more of my qualifications include:
-        <ul>
-          <li>
-            Masters degree in Business Administration & Project Management
-          </li>
-          <li>Completed coursework in Software Engineering</li>
-          <li>Professional Scrum Master certification</li>
-        </ul>
-      </div>
     </div>
   );
 }

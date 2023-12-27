@@ -3,9 +3,86 @@
 exports[`Skills renders correctly 1`] = `
 <DocumentFragment>
   <div
-    class="skill-container"
+    class="skills-container"
   >
-    Skills
+    <div
+      class="skills-container-images"
+    >
+      <div>
+        <img
+          alt="javascript"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        />
+      </div>
+      <div>
+        <img
+          alt="react"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+        />
+      </div>
+      <div>
+        <img
+          alt="html5"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        />
+      </div>
+      <div>
+        <img
+          alt="css3"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+        />
+      </div>
+      <div>
+        <img
+          alt="postgresql"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+        />
+      </div>
+      <div>
+        <img
+          alt="docker"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        />
+      </div>
+      <div>
+        <img
+          alt="amazonwebservices"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+        />
+      </div>
+      <div>
+        <img
+          alt="git"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+        />
+      </div>
+      <div>
+        <img
+          alt="jira"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+        />
+      </div>
+      <img
+        alt="asana"
+        src="https://cdn.worldvectorlogo.com/logos/asana-1.svg"
+      />
+    </div>
+    <div
+      class="skills-container-more"
+    >
+      Some more of my qualifications include:
+      <ul>
+        <li>
+          Masters degree in Business Administration & Project Management
+        </li>
+        <li>
+          Completed coursework in Software Engineering
+        </li>
+        <li>
+          Professional Scrum Master certification
+        </li>
+      </ul>
+    </div>
   </div>
 </DocumentFragment>
 `;

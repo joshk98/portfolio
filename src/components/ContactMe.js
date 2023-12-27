@@ -4,7 +4,7 @@ import "../styles/contactme.css";
 function ContactMe() {
   return (
     <div className="contactme-container">
-      Let us stay in touch!
+      <h2>Let us stay in touch!</h2>
       <div className="contactme-container-links">
         <a
           href="https://linkedin.com/in/joshua-kuhn"

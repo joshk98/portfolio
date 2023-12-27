@@ -1,8 +1,22 @@
 .aboutme-container {
   margin: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  width: 100%;
+}
+
+.aboutme-container-profilepic,
+.aboutme-container-description {
+  width: 20em;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+@media (max-width: 600px) {
+  .aboutme-container-description {
+    margin-bottom: 2em;
+  }
 }

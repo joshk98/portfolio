@@ -12,7 +12,7 @@ const projectsData = [
     title: "Breakout Game",
     link: "https://github.com/joshk98/game-breakout",
     description:
-      "Breakout is a game made with Phaser.js aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.",
+      "Breakout is a game made with Phaser.js aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.",
   },
 ];
 

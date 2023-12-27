@@ -11,9 +11,7 @@ exports[`App renders correctly 1`] = `
       <ul
         class="navbar-container-list"
       >
-        <li
-          class="navbar-container-list-aboutme"
-        >
+        <li>
           <a
             aria-current="page"
             class="active"
@@ -22,14 +20,34 @@ exports[`App renders correctly 1`] = `
             About Me
           </a>
         </li>
-        <li
-          class="navbar-container-list-projects"
-        >
+        <li>
           <a
             class=""
             href="/projects"
           >
             Projects
+          </a>
+        </li>
+        <li>
+          <a
+            href="/#contactme-section"
+          >
+            <svg
+              alt="contactme"
+              aria-hidden="true"
+              class="svg-inline--fa fa-paper-plane "
+              data-icon="paper-plane"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480V396.4c0-4 1.5-7.8 4.2-10.7L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"
+                fill="currentColor"
+              />
+            </svg>
           </a>
         </li>
       </ul>
@@ -40,110 +58,126 @@ exports[`App renders correctly 1`] = `
       <div
         class="aboutme-container-description"
       >
-        Hello there! I am Josh, a project manager based in Belfast, UK. I have a passion for web development and project management. Some of my qualifications include:
-        <ul
-          class="aboutme-container-description-list"
-        >
-          <li>
-            Masters degree in Business Administration & Project Management
-          </li>
-          <li>
-            Completed coursework in Software Engineering
-          </li>
-          <li>
-            Professional Scrum Master certification
-          </li>
-        </ul>
-        I created this website to demonstrate my skills in web development and to share projects I am working on.
+        Hello! I am Josh, a project manager based in Belfast, UK. I have a passion for web development and project management. I created this website to demonstrate my skills in web development and to share projects I am working on.
       </div>
       <div
         class="skills-container"
       >
         <div
-          class="skills-container-image"
+          class="skills-container-images"
         >
+          <div>
+            <img
+              alt="javascript"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            />
+          </div>
+          <div>
+            <img
+              alt="react"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            />
+          </div>
+          <div>
+            <img
+              alt="html5"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+            />
+          </div>
+          <div>
+            <img
+              alt="css3"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+            />
+          </div>
+          <div>
+            <img
+              alt="postgresql"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+            />
+          </div>
+          <div>
+            <img
+              alt="docker"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+            />
+          </div>
+          <div>
+            <img
+              alt="amazonwebservices"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+            />
+          </div>
+          <div>
+            <img
+              alt="git"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+            />
+          </div>
+          <div>
+            <img
+              alt="jira"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+            />
+          </div>
           <img
-            alt="javascript"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            alt="asana"
+            src="https://cdn.worldvectorlogo.com/logos/asana-1.svg"
           />
         </div>
         <div
-          class="skills-container-image"
+          class="skills-container-more"
         >
-          <img
-            alt="react"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-          />
-        </div>
-        <div
-          class="skills-container-image"
-        >
-          <img
-            alt="html"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-          />
-        </div>
-        <div
-          class="skills-container-image"
-        >
-          <img
-            alt="css"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-          />
-        </div>
-        <div
-          class="skills-container-image"
-        >
-          <img
-            alt="postgresql"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-          />
-        </div>
-        <div
-          class="skills-container-image"
-        >
-          <img
-            alt="docker"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
-          />
-        </div>
-        <div
-          class="skills-container-image"
-        >
-          <img
-            alt="aws"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
-          />
-        </div>
-        <div
-          class="skills-container-image"
-        >
-          <img
-            alt="git"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-          />
-        </div>
-        <div
-          class="skills-container-image"
-        >
-          <img
-            alt="github"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-          />
-        </div>
-        <div
-          class="skills-container-image"
-        >
-          <img
-            alt="jira"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
-          />
+          Some more of my qualifications include:
+          <ul>
+            <li>
+              Masters degree in Business Administration & Project Management
+            </li>
+            <li>
+              Completed coursework in Software Engineering
+            </li>
+            <li>
+              Professional Scrum Master certification
+            </li>
+          </ul>
         </div>
       </div>
       <div
         class="contactme-container"
       >
-        Contact Me
+        Let us stay in touch!
+        <div
+          class="contactme-container-links"
+        >
+          <a
+            href="https://linkedin.com/in/joshua-kuhn"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="linkedin"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+            />
+          </a>
+          <a
+            href="https://github.com/joshk98"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="github"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            />
+          </a>
+          <a
+            href="mailto:joshkkuhn@gmail.com"
+          >
+            <img
+              alt="email"
+              src="https://www.svgrepo.com/show/303161/gmail-icon-logo.svg"
+            />
+          </a>
+        </div>
       </div>
     </div>
   </div>
