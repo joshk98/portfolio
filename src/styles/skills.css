@@ -15,7 +15,6 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  max-width: 50%;
   margin: 1em;
   padding: 0.5em 0.5em;
 }

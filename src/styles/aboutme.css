@@ -2,20 +2,28 @@
   margin: 0;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
 
-.aboutme-container-profilepic,
-.aboutme-container-description {
-  width: 20em;
+.aboutme-container-description,
+.aboutme-container img {
   margin: 1em;
   padding: 0.5em;
 }
 
+.aboutme-container-description {
+  max-width: 40em;
+}
+.aboutme-container img {
+  width: 20em;
+}
+
 @media (max-width: 600px) {
+  .aboutme-container {
+    flex-wrap: wrap;
+  }
   .aboutme-container-description {
     margin-bottom: 2em;
   }
