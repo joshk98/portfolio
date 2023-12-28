@@ -15,10 +15,10 @@ function AboutMe() {
         <div className="aboutme-container-description">
           <h1>Hello!</h1>
           <p>
-            My name is <strong>Josh Kuhn.</strong> I am a project manager based
-            in Belfast, UK. I have a passion for web development and project
-            management. I created this website to demonstrate my skills in web
-            development and to share projects I am working on.
+            My name is <strong>Joshua Kuhn.</strong> I am a project manager
+            based in Belfast, UK. I have a passion for web development and
+            project management. I created this website to demonstrate my skills
+            in web development and to share projects I am working on.
           </p>
           <p>Some more of my qualifications include:</p>
           <ul>
