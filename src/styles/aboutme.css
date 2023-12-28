@@ -1,21 +1,31 @@
 .aboutme-container {
-  margin: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
-}
-
-.aboutme-container-description,
-.aboutme-container img {
   margin: 1em;
-  padding: 0.5em;
 }
 
-.aboutme-container-description {
-  max-width: 40em;
+.aboutme-container h1 {
+  text-align: center;
+  margin: 0.5em;
 }
+
+.aboutme-container ul {
+  list-style: none;
+}
+
+.aboutme-container ul li::before {
+  content: '>';
+  color: #ec005a;
+  font-family: 'Silkscreen', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 .aboutme-container img {
   width: 20em;
 }
@@ -24,7 +34,8 @@
   .aboutme-container {
     flex-wrap: wrap;
   }
-  .aboutme-container-description {
-    margin-bottom: 2em;
+
+  .aboutme-container img {
+    width: 15em;
   }
 }

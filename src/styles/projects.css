@@ -21,13 +21,17 @@
   width: 20em;
   height: 10em;
   overflow: hidden;
-  background-color: #1b1f38;
+  background-color: #212542;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 .projects-container-card-title,
 .projects-container-card-description {
   margin: 0.5em;
+}
+
+.projects-container-card-title {
+  font-family: 'Silkscreen', sans-serif;
 }
 
 .projects-container-card-description {
@@ -49,5 +53,6 @@
     margin: 0;
     margin-top: 1em;
     margin-bottom: 1em;
+    max-width: 15em;
   }
 }

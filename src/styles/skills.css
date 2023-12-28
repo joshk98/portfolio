@@ -1,16 +1,15 @@
-img {
-  width: 75px;
-}
-
 .skills-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  background-color: #1b1f38;
+  background-color: #212542;
   box-shadow:
     0 4px 8px rgba(0, 0, 0, 0.25),
     0 -4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.skills-container img {
+  width: 75px;
 }
 
 .skills-container-images {
@@ -19,21 +18,14 @@ img {
   justify-content: center;
   align-items: center;
   margin: 1em;
-  padding: 0.5em 0.5em;
 }
 
 .skills-container img {
+  width: 75px;
   transition: transform 0.3s ease-in-out;
-  margin: 0.5em;
-  padding: 0.25em;
+  margin: 1em;
 }
 
 .skills-container img:hover {
   transform: scale(1.1);
-}
-
-@media (max-width: 600px) {
-  .skills-container-images {
-    max-width: 100%;
-  }
 }
