@@ -6,8 +6,8 @@ import "../styles/contactme.css";
 
 function ContactMe() {
   return (
-    <div className="contactme-container">
-      <h2>Let&#39;s keep in touch!</h2>
+    <div className="contactme-container" id="contactme-section">
+      <h2>Let&#39;s keep in touch! :)</h2>
       <div className="contactme-container-links">
         <a
           href="https://linkedin.com/in/joshua-kuhn"

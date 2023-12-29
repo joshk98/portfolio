@@ -29,7 +29,7 @@ function Skills() {
           </div>
         ))}
         <img
-          src="https://cdn.worldvectorlogo.com/logos/asana-1.svg"
+          src="https://cdn.worldvectorlogo.com/logos/asana-logo.svg"
           alt="asana"
         />
       </div>

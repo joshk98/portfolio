@@ -2,14 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #212542;
+  background-color: #1b203d;
   box-shadow:
     0 4px 8px rgba(0, 0, 0, 0.25),
     0 -4px 8px rgba(0, 0, 0, 0.25);
-}
-
-.skills-container img {
-  width: 75px;
+  padding: 2em;
 }
 
 .skills-container-images {
@@ -17,15 +14,26 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 1em;
 }
 
 .skills-container img {
-  width: 75px;
+  width: 115px;
   transition: transform 0.3s ease-in-out;
-  margin: 1em;
+  margin: 2em;
 }
 
 .skills-container img:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .skills-container img {
+    width: 75px;
+    transition: transform 0.3s ease-in-out;
+    margin: 1em;
+  }
+
+  .skills-container-images {
+    margin: 0;
+  }
 }
