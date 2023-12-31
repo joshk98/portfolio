@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../styles/projects.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const projectsData = [
   {
@@ -34,6 +36,7 @@ function Projects() {
   return (
     <div className="projects-container">
       <div className="projects-container-search">
+        <FontAwesomeIcon icon={faSearch} className="search-icon" />
         <input
           type="text"
           placeholder="Search by title"
@@ -49,7 +52,6 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={project.title}
-              className="projects-container-card-title"
             >
               {project.title}
             </a>

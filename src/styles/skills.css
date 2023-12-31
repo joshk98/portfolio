@@ -17,7 +17,7 @@
 }
 
 .skills-container img {
-  width: 100px;
+  width: 4em;
   transition: transform 0.3s ease-in-out;
   margin: 1em;
 }
@@ -32,7 +32,6 @@
     padding-right: 1em;
   }
   .skills-container img {
-    width: 75px;
     transition: transform 0.3s ease-in-out;
   }
 }
