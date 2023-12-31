@@ -27,6 +27,10 @@
 }
 
 @media (max-width: 600px) {
+  .skills-container {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
   .skills-container img {
     width: 75px;
     transition: transform 0.3s ease-in-out;
