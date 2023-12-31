@@ -3,15 +3,11 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 4em;
-}
-
-.contactme-container h2 {
-  margin: 0;
+  margin: 2em;
 }
 
 .contactme-container img {
-  width: 85px;
+  width: 75px;
   transition: transform 0.3s ease-in-out;
   margin: 2em;
   margin-bottom: 0em;
@@ -22,12 +18,8 @@
 }
 
 @media (max-width: 600px) {
-  .contactme-container {
-    margin: 2em;
-  }
   .contactme-container img {
     width: 50px;
     margin: 1em;
-    margin-bottom: 0;
   }
 }

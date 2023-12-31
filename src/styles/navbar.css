@@ -12,7 +12,6 @@
   z-index: 1000;
   transition: transform 0.3s ease;
   font-family: 'Silkscreen', sans-serif;
-  font-size: 2rem;
   text-transform: uppercase;
 }
 
@@ -51,12 +50,15 @@
 
 @media (max-width: 600px) {
   .navbar-container {
-    padding-top: 1.25em;
+    padding-top: 1em;
     padding-bottom: 1em;
-    font-size: 1.35rem;
   }
 
   .navbar-container a {
-    margin-right: 1.65em;
+    margin-right: 2em;
+  }
+
+  .navbar-container a:last-child {
+    margin-right: 0;
   }
 }
