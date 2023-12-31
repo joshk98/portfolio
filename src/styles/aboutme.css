@@ -30,7 +30,7 @@
 
 .aboutme-container img {
   width: 17.5em;
-  border-radius: 25%;
+  border-radius: 50%;
   border: 15px solid #f0ece5;
   box-sizing: border-box;
   margin: 4em;
@@ -48,7 +48,6 @@
 
   .aboutme-container img {
     width: 15em;
-    border: 12.5px solid #f0ece5;
     margin: 0;
     margin-top: 1em;
   }
