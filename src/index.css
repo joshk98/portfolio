@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #161a30;
@@ -31,7 +31,7 @@ strong {
 
 @media (max-width: 600px) {
   body {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   h1 {

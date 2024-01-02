@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   margin: 2em;
-  margin-top: 4em;
+  margin-top: 5em;
 }
 
 .aboutme-container h1 {
@@ -37,7 +37,8 @@
 }
 
 .aboutme-container-description {
-  width: 30em;
+  width: 50%;
+  min-width: 20em;
   margin: 3em;
 }
 
@@ -47,7 +48,7 @@
   }
 
   .aboutme-container img {
-    width: 15em;
+    width: 75%;
     margin: 0;
     margin-top: 1em;
     border: 15px solid #f0ece5;
@@ -62,6 +63,8 @@
 
   .aboutme-container-description {
     margin: 0;
+    width: 100%;
+    min-width: none;
   }
 
   .aboutme-container ul li::before {
