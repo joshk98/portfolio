@@ -33,12 +33,12 @@
   border-radius: 50%;
   border: 20px solid #f0ece5;
   box-sizing: border-box;
-  margin: 4em;
+  margin: 3em;
 }
 
 .aboutme-container-description {
   width: 30em;
-  margin: 4em;
+  margin: 3em;
 }
 
 @media (max-width: 600px) {
