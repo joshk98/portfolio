@@ -31,14 +31,14 @@
 .aboutme-container img {
   width: 17.5em;
   border-radius: 50%;
-  border: 15px solid #f0ece5;
+  border: 20px solid #f0ece5;
   box-sizing: border-box;
   margin: 4em;
 }
 
 .aboutme-container-description {
   width: 30em;
-  margin: 2em;
+  margin: 4em;
 }
 
 @media (max-width: 600px) {
@@ -50,17 +50,21 @@
     width: 15em;
     margin: 0;
     margin-top: 1em;
+    border: 15px solid #f0ece5;
   }
 
   .aboutme-container h1 {
     text-align: center;
-    margin: 0.5em;
-    margin-top: 0.75em;
-    margin-bottom: 0.75em;
+    margin: 0.75em;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .aboutme-container-description {
     margin: 0;
-    width: none;
+  }
+
+  .aboutme-container ul li::before {
+    font-size: 1.5rem;
   }
 }

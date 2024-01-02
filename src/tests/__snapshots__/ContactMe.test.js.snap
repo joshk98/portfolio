@@ -4,8 +4,11 @@ exports[`ContactMe renders correctly 1`] = `
 <DocumentFragment>
   <div
     class="contactme-container"
+    id="contactme-section"
   >
-    Let us stay in touch!
+    <h2>
+      Let's keep in touch! :)
+    </h2>
     <div
       class="contactme-container-links"
     >
@@ -16,7 +19,7 @@ exports[`ContactMe renders correctly 1`] = `
       >
         <img
           alt="linkedin"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+          src="icon-linkedin.png"
         />
       </a>
       <a
@@ -26,7 +29,7 @@ exports[`ContactMe renders correctly 1`] = `
       >
         <img
           alt="github"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+          src="icon-github.png"
         />
       </a>
       <a
@@ -34,7 +37,7 @@ exports[`ContactMe renders correctly 1`] = `
       >
         <img
           alt="email"
-          src="https://www.svgrepo.com/show/303161/gmail-icon-logo.svg"
+          src="icon-email.png"
         />
       </a>
     </div>

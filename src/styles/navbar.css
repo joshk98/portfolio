@@ -52,10 +52,11 @@
   .navbar-container {
     padding-top: 1em;
     padding-bottom: 1em;
+    font-size: 1.1rem;
   }
 
   .navbar-container a {
-    margin-right: 2em;
+    margin-right: 3em;
   }
 
   .navbar-container a:last-child {

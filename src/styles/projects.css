@@ -1,6 +1,6 @@
 .projects-container {
   margin: 2em;
-  margin-top: 5.5em;
+  margin-top: 5em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,16 +38,15 @@
 .projects-container-cards-group {
   display: flex;
   flex-direction: row;
-  margin: 2em;
-  margin-top: 1em;
+  margin: 1em;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .projects-container-card {
-  margin: 2em;
+  margin: 1em;
   padding: 2em;
-  width: 20em;
+  width: 25em;
   border-radius: 10px;
   overflow: hidden;
   background-color: #1b203d;
@@ -70,25 +69,30 @@
 
 @media (max-width: 600px) {
   .projects-container {
-    margin-top: 4em;
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
+
   .projects-container-cards-group {
     flex-direction: column;
-    margin: 1em;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .projects-container-card {
-    max-width: 15em;
     margin: 1em;
-    padding: 1.5em;
+    width: 17.5em;
+    padding: 1.75em;
+    font-size: 1rem;
   }
 
   .projects-container-card a {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .projects-container-search input {
     font-size: 1.25rem;
-    width: 10em;
+    width: 75%;
   }
 }

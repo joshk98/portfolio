@@ -64,24 +64,8 @@ exports[`Skills renders correctly 1`] = `
       </div>
       <img
         alt="asana"
-        src="https://cdn.worldvectorlogo.com/logos/asana-1.svg"
+        src="https://cdn.worldvectorlogo.com/logos/asana-logo.svg"
       />
-    </div>
-    <div
-      class="skills-container-more"
-    >
-      Some more of my qualifications include:
-      <ul>
-        <li>
-          Masters degree in Business Administration & Project Management
-        </li>
-        <li>
-          Completed coursework in Software Engineering
-        </li>
-        <li>
-          Professional Scrum Master certification
-        </li>
-      </ul>
     </div>
   </div>
 </DocumentFragment>

@@ -6,11 +6,13 @@ const skillsData = [
   "react",
   "html5",
   "css3",
+  "figma",
+  "nodejs",
+  "git",
   "postgresql",
   "docker",
   "amazonwebservices",
-  "git",
-  "jira",
+  "wordpress",
 ];
 
 const mappedSkillsData = skillsData.map((skill, index) => ({

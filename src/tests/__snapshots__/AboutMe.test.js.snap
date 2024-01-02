@@ -2,13 +2,50 @@
 
 exports[`AboutMe renders correctly 1`] = `
 <DocumentFragment>
-  <div
-    class="aboutme-container"
-  >
+  <div>
     <div
-      class="aboutme-container-description"
+      class="aboutme-container"
     >
-      Hello! I am Josh, a project manager based in Belfast, UK. I have a passion for web development and project management. I created this website to demonstrate my skills in web development and to share projects I am working on.
+      <img
+        alt="profilepic"
+        src="img-self.jpg"
+      />
+      <div
+        class="aboutme-container-description"
+      >
+        <h1>
+          Hello!
+        </h1>
+        <p>
+          My name is 
+          <strong>
+            Joshua Kuhn.
+          </strong>
+           I'm a project manager currently based in Belfast, UK. I have a passion for 
+          <strong>
+            project management
+          </strong>
+           and software development. I created this website to demonstrate my skills in 
+          <strong>
+            software development
+          </strong>
+           and to share projects I'm working on.
+        </p>
+        <p>
+          Some more of my qualifications include:
+        </p>
+        <ul>
+          <li>
+            Masters degree in Business Administration & Project Management
+          </li>
+          <li>
+            Completed coursework in Software Development
+          </li>
+          <li>
+            Professional Scrum Master certification
+          </li>
+        </ul>
+      </div>
     </div>
     <div
       class="skills-container"
@@ -72,30 +109,17 @@ exports[`AboutMe renders correctly 1`] = `
         </div>
         <img
           alt="asana"
-          src="https://cdn.worldvectorlogo.com/logos/asana-1.svg"
+          src="https://cdn.worldvectorlogo.com/logos/asana-logo.svg"
         />
-      </div>
-      <div
-        class="skills-container-more"
-      >
-        Some more of my qualifications include:
-        <ul>
-          <li>
-            Masters degree in Business Administration & Project Management
-          </li>
-          <li>
-            Completed coursework in Software Engineering
-          </li>
-          <li>
-            Professional Scrum Master certification
-          </li>
-        </ul>
       </div>
     </div>
     <div
       class="contactme-container"
+      id="contactme-section"
     >
-      Let us stay in touch!
+      <h2>
+        Let's keep in touch! :)
+      </h2>
       <div
         class="contactme-container-links"
       >
@@ -106,7 +130,7 @@ exports[`AboutMe renders correctly 1`] = `
         >
           <img
             alt="linkedin"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+            src="icon-linkedin.png"
           />
         </a>
         <a
@@ -116,7 +140,7 @@ exports[`AboutMe renders correctly 1`] = `
         >
           <img
             alt="github"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            src="icon-github.png"
           />
         </a>
         <a
@@ -124,7 +148,7 @@ exports[`AboutMe renders correctly 1`] = `
         >
           <img
             alt="email"
-            src="https://www.svgrepo.com/show/303161/gmail-icon-logo.svg"
+            src="icon-email.png"
           />
         </a>
       </div>
