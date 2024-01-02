@@ -14,12 +14,13 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  max-width: 75%;
 }
 
 .skills-container img {
   width: 4em;
   transition: transform 0.3s ease-in-out;
-  margin: 1em;
+  margin: 1.5em;
 }
 
 .skills-container img:hover {
@@ -32,7 +33,12 @@
     padding-top: 2em;
     padding-bottom: 2em;
   }
+
   .skills-container img {
     transition: transform 0.3s ease-in-out;
+  }
+
+  .skills-container-images {
+    max-width: none;
   }
 }
