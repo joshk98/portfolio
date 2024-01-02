@@ -36,6 +36,38 @@ exports[`Projects renders correctly 1`] = `
         class="projects-container-card"
       >
         <a
+          aria-label="Book Library API"
+          href="https://github.com/joshk98/book-library"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Book Library API 
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-link "
+            data-icon="link"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 640 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <div
+          class="projects-container-card-description"
+        >
+          The Book Library API is a comprehensive system for user account creation, book listing, and loan requests. Built with Express, node-postgres, Sequelize, and tested with Mocha/Chai, it emphasizes interpreting user stories and advanced Sequelize schema validation. Follow the installation steps, including Docker for testing, to manage reader records with CRUD operations through API endpoints.
+        </div>
+      </div>
+      <div
+        class="projects-container-card"
+      >
+        <a
           aria-label="Breakout Game"
           href="https://github.com/joshk98/game-breakout"
           rel="noopener noreferrer"
@@ -61,7 +93,39 @@ exports[`Projects renders correctly 1`] = `
         <div
           class="projects-container-card-description"
         >
-          Breakout is a game made with Phaser.js aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.
+          Breakout is a game made with the Phaser.js framework. This was my first attempt using Phaser.js. I made this game by following a free tutorial available on MDN.
+        </div>
+      </div>
+      <div
+        class="projects-container-card"
+      >
+        <a
+          aria-label="Cruise Ships GUI"
+          href="https://github.com/joshk98/cruise-ships-gui"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Cruise Ships GUI 
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-link "
+            data-icon="link"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 640 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <div
+          class="projects-container-card-description"
+        >
+          The Cruise Ships GUI, a JavaScript project, enhances the Cruise Ships simulation with an interactive graphical interface. Focused on domain modeling, object-oriented programming, and principles like Single Responsibility and dependency inversion, it lets users easily manage ship itineraries, visualize movements, and experience an animated journey while receiving informative messages about departures and arrivals.
         </div>
       </div>
       <div
@@ -93,7 +157,71 @@ exports[`Projects renders correctly 1`] = `
         <div
           class="projects-container-card-description"
         >
-          Gourmet Guide is my final project with Command Shift aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.
+          Gourmet Guide was my final group project with Command Shift. This app allows users to create and save their own recipes to a user account. I primarily took on the front-end and project management responsibilities for this project. Some of the technologies used were Javascript, CSS, HTML, React, Axios, Node, and Firebase. Asana was used for project management. Please follow the link path in the README.md to see a visual demonstration of the project's functionalities.
+        </div>
+      </div>
+      <div
+        class="projects-container-card"
+      >
+        <a
+          aria-label="Surreal Estate"
+          href="https://github.com/joshk98/surreal-estate"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Surreal Estate 
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-link "
+            data-icon="link"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 640 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <div
+          class="projects-container-card-description"
+        >
+          The Surreal Estate App, crafted with React, offers a smooth real estate exploration using SPA architecture, client-side routing, and controlled inputs. It employs HTTP requests for dynamic data fetching and ensures secure user authentication through OAuth integration, providing a modern platform for efficient browsing of real estate listings.
+        </div>
+      </div>
+      <div
+        class="projects-container-card"
+      >
+        <a
+          aria-label="Weather App"
+          href="https://github.com/joshk98/weather-app"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Weather App 
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-link "
+            data-icon="link"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 640 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <div
+          class="projects-container-card-description"
+        >
+          The Weather App is a React-based application providing user-friendly weather forecasts. With a focus on React, JSX, and component-based architecture, it uses stateful/stateless components, React Hooks, and React Testing Library for efficient development. Users easily search for cities, access current weather, and explore forecasts, with seamless request/response handling for a smooth weather browsing experience.
         </div>
       </div>
     </div>

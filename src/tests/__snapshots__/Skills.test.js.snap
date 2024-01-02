@@ -34,6 +34,24 @@ exports[`Skills renders correctly 1`] = `
       </div>
       <div>
         <img
+          alt="figma"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+        />
+      </div>
+      <div>
+        <img
+          alt="nodejs"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        />
+      </div>
+      <div>
+        <img
+          alt="git"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+        />
+      </div>
+      <div>
+        <img
           alt="postgresql"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
         />
@@ -52,14 +70,8 @@ exports[`Skills renders correctly 1`] = `
       </div>
       <div>
         <img
-          alt="git"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-        />
-      </div>
-      <div>
-        <img
-          alt="jira"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"
+          alt="wordpress"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg"
         />
       </div>
       <img
