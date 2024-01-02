@@ -19,16 +19,17 @@
 
 .search-icon {
   color: #ec005a;
-  margin-right: 0.5em;
+  margin-right: 1em;
 }
 
 .projects-container-search input {
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: 0.5em;
   border: none;
   font-family: 'Silkscreen', sans-serif;
   background-color: #161a30;
   color: #ec005a;
+  width: 75%;
 }
 
 .projects-container-search input::placeholder {
@@ -50,7 +51,7 @@
 .projects-container-card {
   margin: 1em;
   padding: 2em;
-  width: 30%;
+  width: 35%;
   min-width: 15em;
   border-radius: 10px;
   overflow: hidden;
@@ -63,7 +64,7 @@
   font-weight: bold;
   text-decoration: none;
   color: #ec005a;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .projects-container-card-description {
@@ -94,8 +95,7 @@
     font-size: 1.25rem;
   }
 
-  .projects-container-search input {
-    font-size: 1rem;
+  .projects-container-search {
     width: 75%;
   }
 

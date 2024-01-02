@@ -29,7 +29,7 @@
 }
 
 .aboutme-container img {
-  width: 17.5em;
+  width: 20em;
   border-radius: 50%;
   border: 20px solid #f0ece5;
   box-sizing: border-box;
@@ -38,7 +38,7 @@
 }
 
 .aboutme-container-description {
-  width: 50%;
+  width: 45%;
   min-width: 25em;
   margin: 2em;
 }
@@ -64,8 +64,7 @@
 
   .aboutme-container-description {
     margin: 0;
-    width: 100%;
-    min-width: none;
+    min-width: 100%;
   }
 
   .aboutme-container ul li::before {

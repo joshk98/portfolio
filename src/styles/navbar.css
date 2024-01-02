@@ -50,9 +50,6 @@
 
 @media (max-width: 600px) {
   .navbar-container {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    font-size: 1.1rem;
   }
 
   .navbar-container a {
