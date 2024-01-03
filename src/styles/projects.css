@@ -1,6 +1,6 @@
 .projects-container {
-  margin: 1em;
-  margin-top: 5em;
+  margin: 2em;
+  margin-top: 4em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,6 +15,7 @@
   border-top: 0;
   border-left: 0;
   border-right: 0;
+  width: 75%;
 }
 
 .search-icon {
@@ -42,22 +43,24 @@
 
 .projects-container-cards-group {
   display: flex;
-  flex-direction: row;
-  margin: 1em;
   flex-wrap: wrap;
   justify-content: center;
+
+  flex-direction: column;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .projects-container-card {
-  margin: 1em;
-  padding: 2em;
-  width: 35%;
-  min-width: 15em;
-  max-width: 30em;
   border-radius: 10px;
   overflow: hidden;
   background-color: #1b203d;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+
+  margin: 1em;
+  padding: 1.75em;
+  width: 75%;
+  min-width: none;
 }
 
 .projects-container-card a {
@@ -65,42 +68,42 @@
   font-weight: bold;
   text-decoration: none;
   color: #ec005a;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .projects-container-card-description {
   overflow: hidden;
   word-wrap: break-word;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .projects-container {
-    margin-top: 4em;
+    margin-top: 5em;
   }
 
   .projects-container-cards-group {
-    flex-direction: column;
-    margin-left: 0;
-    margin-right: 0;
+    flex-direction: row;
+    margin: 1em;
   }
 
   .projects-container-card {
     margin: 1em;
-    padding: 1.75em;
-    width: 75%;
-    min-width: none;
+    padding: 2em;
+    width: 35%;
+    min-width: 15em;
+    max-width: 30em;
   }
 
   .projects-container-card a {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .projects-container-search {
-    width: 75%;
+    width: 20%;
   }
 
   .projects-container-card-description {
-    margin-top: 1em;
+    margin-top: 2em;
   }
 }

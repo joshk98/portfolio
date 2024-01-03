@@ -1,16 +1,10 @@
 .aboutme-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 2em;
+  margin: 1em;
   margin-top: 5em;
-}
-
-.aboutme-container h1 {
-  text-align: left;
-  margin: 0;
 }
 
 .aboutme-container ul {
@@ -22,7 +16,6 @@
   color: #ec005a;
   font-family: 'Silkscreen', sans-serif;
   font-weight: bold;
-  font-size: 1.25rem;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
@@ -31,42 +24,29 @@
 .aboutme-container img {
   width: 20em;
   border-radius: 50%;
-  border: 20px solid #f0ece5;
+  border: 1em solid #f0ece5;
   box-sizing: border-box;
-  margin: 2em;
-  margin-right: 4em;
+  margin: 1em;
 }
 
 .aboutme-container-description {
-  width: 40%;
-  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  justify-content: center;
 }
 
-@media (max-width: 600px) {
+.aboutme-container h1 {
+  margin: 0;
+}
+
+@media (min-width: 600px) {
   .aboutme-container {
-    flex-direction: column;
+    margin: 2em;
+    margin-top: 5em;
   }
 
   .aboutme-container img {
-    width: 75%;
-    margin: 0.5em;
-    margin-bottom: 0;
-    border: 15px solid #f0ece5;
-  }
-
-  .aboutme-container h1 {
-    text-align: center;
-    margin: 0.75em;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .aboutme-container-description {
-    margin: 0;
-    width: 95%;
-  }
-
-  .aboutme-container ul li::before {
-    font-size: 1rem;
+    margin: 2em;
   }
 }

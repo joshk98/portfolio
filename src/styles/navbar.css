@@ -5,8 +5,8 @@
   justify-content: center;
   background-color: #161a30;
   width: 100%;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -48,9 +48,9 @@
   transform: translateY(-120%);
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .navbar-container {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
   }
 }

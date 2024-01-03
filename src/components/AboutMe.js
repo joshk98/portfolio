@@ -23,14 +23,6 @@ function AboutMe() {
             <strong>software development</strong> and to share projects I&#39;m
             working on.
           </p>
-          <p>Some more of my qualifications include:</p>
-          <ul>
-            <li>
-              Masters degree in Business Administration & Project Management
-            </li>
-            <li>Completed coursework in Software Development</li>
-            <li>Professional Scrum Master certification</li>
-          </ul>
         </div>
       </div>
       <Skills />
@@ -40,3 +32,14 @@ function AboutMe() {
 }
 
 export default AboutMe;
+
+/* <div className="aboutme-qualifications">
+            <p>Some more of my qualifications include:</p>
+            <ul>
+              <li>
+                Masters degree in Business Administration & Project Management
+              </li>
+              <li>Completed coursework in Software Development</li>
+              <li>Professional Scrum Master certification</li>
+            </ul>
+          </div> */
