@@ -10,7 +10,7 @@
 
 .aboutme-container h1 {
   text-align: left;
-  margin-top: 0;
+  margin: 0;
 }
 
 .aboutme-container ul {
@@ -56,14 +56,14 @@
 
   .aboutme-container h1 {
     text-align: center;
-    margin: 0.75em;
+    margin: 0.5em;
     margin-left: 0;
     margin-right: 0;
   }
 
   .aboutme-container-description {
     margin: 0;
-    width: 100%;
+    width: 95%;
   }
 
   .aboutme-container ul li::before {

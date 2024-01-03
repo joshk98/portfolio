@@ -29,14 +29,14 @@
 
 @media (max-width: 600px) {
   .skills-container {
-    padding: 0em;
+    padding: 1em;
     padding-top: 2em;
     padding-bottom: 2em;
   }
 
   .skills-container img {
     transition: transform 0.3s ease-in-out;
-    padding: 0.5em;
+    padding: 1em;
   }
 
   .skills-container-images {

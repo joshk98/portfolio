@@ -53,11 +53,4 @@
     padding-top: 1em;
     padding-bottom: 1em;
   }
-  .navbar-container a {
-    margin-right: 2em;
-  }
-
-  .navbar-container a:last-child {
-    margin-right: 0;
-  }
 }
