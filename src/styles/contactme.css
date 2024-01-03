@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 2em;
+  margin: 4em;
 }
 
 .contactme-container img {
@@ -22,7 +22,7 @@
 }
 
 @media (max-width: 600px) {
-  .contactme-container img {
-    margin: 0.5em;
+  .contactme-container {
+    margin: 2em;
   }
 }

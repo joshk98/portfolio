@@ -20,7 +20,7 @@
 .skills-container img {
   width: 4em;
   transition: transform 0.3s ease-in-out;
-  margin: 1.5em;
+  margin: 1em;
 }
 
 .skills-container img:hover {
@@ -36,6 +36,7 @@
 
   .skills-container img {
     transition: transform 0.3s ease-in-out;
+    padding: 0.5em;
   }
 
   .skills-container-images {
