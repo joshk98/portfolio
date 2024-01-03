@@ -49,9 +49,6 @@
 }
 
 @media (max-width: 600px) {
-  .navbar-container {
-  }
-
   .navbar-container a {
     margin-right: 2em;
   }
