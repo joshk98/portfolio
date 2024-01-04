@@ -34,10 +34,10 @@ const mappedOtherData = otherData.map((skill, index) => ({
 function Skills() {
   return (
     <div className="skills-container">
-      <h2>Skills</h2>
+      <h1>Skills</h1>
       <div className="skills">
         <div className="skills-type">
-          <h3>Front-End</h3>
+          <h2>Front-End</h2>
           <div className="skills-images">
             {mappedFrontData.map((skill) => (
               <div key={skill.id}>
@@ -47,7 +47,7 @@ function Skills() {
           </div>
         </div>
         <div className="skills-type">
-          <h3>Back-End</h3>
+          <h2>Back-End</h2>
           <div className="skills-images">
             {mappedBackData.map((skill) => (
               <div key={skill.id}>
@@ -57,7 +57,7 @@ function Skills() {
           </div>
         </div>
         <div className="skills-type">
-          <h3>Other</h3>
+          <h2>Other</h2>
           <div className="skills-images">
             {mappedOtherData.map((skill) => (
               <div key={skill.id}>

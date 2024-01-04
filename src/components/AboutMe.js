@@ -13,9 +13,7 @@ function AboutMe() {
         <img src={profilePic} alt="profilepic" />
         <div className="aboutme-container-description">
           <h1>Hello!</h1>
-          <p>
-            My name is <strong>Joshua Kuhn.</strong>
-          </p>
+          <h1>I&#39;m Joshua Kuhn.</h1>
           <p>
             I&#39;m a project manager currently based in Belfast, UK. I have a
             passion for <strong>project management</strong> and software
@@ -23,6 +21,14 @@ function AboutMe() {
             <strong>software development</strong> and to share projects I&#39;m
             working on.
           </p>
+          <p>Some more of my qualifications include:</p>
+          <ul>
+            <li>
+              Masters degree in Business Administration & Project Management
+            </li>
+            <li>Completed coursework in Software Development</li>
+            <li>Professional Scrum Master certification</li>
+          </ul>
         </div>
       </div>
       <Skills />
