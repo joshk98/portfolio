@@ -1,6 +1,6 @@
 .projects-container {
-  margin: 2em;
-  margin-top: 4em;
+  margin: 0;
+  margin-top: 5em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +15,6 @@
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  width: 75%;
 }
 
 .search-icon {
@@ -25,12 +24,11 @@
 
 .projects-container-search input {
   font-size: 1rem;
-  padding: 0.5em;
+  margin: 0.5em;
   border: none;
   font-family: 'Silkscreen', sans-serif;
   background-color: #161a30;
   color: #ec005a;
-  width: 75%;
 }
 
 .projects-container-search input::placeholder {
@@ -43,22 +41,18 @@
 
 .projects-container-cards-group {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  flex-direction: column;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .projects-container-card {
-  border-radius: 10px;
+  border-radius: 1em;
   overflow: hidden;
   background-color: #1b203d;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
   margin: 1em;
-  padding: 1.75em;
-  width: 75%;
-  min-width: none;
+  padding: 2em;
 }
 
 .projects-container-card a {
@@ -70,38 +64,30 @@
 }
 
 .projects-container-card-description {
-  overflow: hidden;
-  word-wrap: break-word;
   margin-top: 1em;
 }
 
 @media (min-width: 600px) {
+  .projects-container,
+  .projects-container-cards-group {
+    margin: 2em;
+  }
+
   .projects-container {
     margin-top: 5em;
   }
 
-  .projects-container-cards-group {
-    flex-direction: row;
-    margin: 1em;
-  }
-
-  .projects-container-card {
-    margin: 1em;
-    padding: 2em;
-    width: 35%;
-    min-width: 15em;
+  .projects-container-card,
+  .projects-container-search {
     max-width: 30em;
   }
 
-  .projects-container-card a {
-    font-size: 1.5rem;
+  .projects-container-card {
+    width: 35%;
+    min-width: 20em;
   }
 
   .projects-container-search {
-    width: 20%;
-  }
-
-  .projects-container-card-description {
-    margin-top: 2em;
+    width: 20em;
   }
 }
