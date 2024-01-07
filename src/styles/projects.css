@@ -12,6 +12,7 @@
   align-items: center;
   margin: 1em;
   border: 3px solid #ec005a;
+  border-radius: 0.25em;
 }
 
 .search-icon {
@@ -71,21 +72,19 @@
     margin: 2em;
   }
 
+  .projects-container-cards-group {
+    margin-top: 1em;
+  }
+
   .projects-container {
     margin-top: 5em;
   }
 
-  .projects-container-card,
   .projects-container-search {
-    max-width: 30em;
+    width: 20em;
   }
 
   .projects-container-card {
-    width: 35%;
-    min-width: 20em;
-  }
-
-  .projects-container-search {
-    width: 20em;
+    width: 25em;
   }
 }
