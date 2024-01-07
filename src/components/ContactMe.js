@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React, { useState } from "react";
 import githubIcon from "../images/icon-github.png";
 import linkedinIcon from "../images/icon-linkedin.png";
