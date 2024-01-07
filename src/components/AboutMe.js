@@ -38,14 +38,3 @@ function AboutMe() {
 }
 
 export default AboutMe;
-
-/* <div className="aboutme-qualifications">
-            <p>Some more of my qualifications include:</p>
-            <ul>
-              <li>
-                Masters degree in Business Administration & Project Management
-              </li>
-              <li>Completed coursework in Software Development</li>
-              <li>Professional Scrum Master certification</li>
-            </ul>
-          </div> */

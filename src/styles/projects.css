@@ -12,14 +12,12 @@
   align-items: center;
   margin: 1em;
   border: 3px solid #ec005a;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
 }
 
 .search-icon {
   color: #ec005a;
   margin-right: 0.5em;
+  margin-left: 1em;
 }
 
 .projects-container-search input {
