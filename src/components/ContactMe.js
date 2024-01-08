@@ -86,6 +86,7 @@ function ContactMe() {
           <img src={githubIcon} alt="github" />
         </a>
       </div>
+      <strong>Created by Joshua Kuhn</strong>
     </div>
   );
 }

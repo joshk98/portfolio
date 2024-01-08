@@ -12,6 +12,7 @@
   align-items: center;
   margin: 1em;
   border: 3px solid #ec005a;
+  background-color: #161a30;
   border-radius: 0.25em;
 }
 
@@ -27,7 +28,7 @@
   border: none;
   font-family: 'Silkscreen', sans-serif;
   background-color: #161a30;
-  color: #ec005a;
+  color: #f0ece5;
 }
 
 .projects-container-search input::placeholder {
