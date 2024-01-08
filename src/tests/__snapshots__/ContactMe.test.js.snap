@@ -9,6 +9,35 @@ exports[`ContactMe renders correctly 1`] = `
     <h2>
       Let's keep in touch! :)
     </h2>
+    <form>
+      <input
+        id="name"
+        name="name"
+        placeholder="Your Name"
+        required=""
+        type="text"
+        value=""
+      />
+      <input
+        id="email"
+        name="email"
+        placeholder="Your Email"
+        required=""
+        type="email"
+        value=""
+      />
+      <textarea
+        id="message"
+        name="message"
+        placeholder="Message"
+        required=""
+      />
+      <button
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
     <div
       class="contactme-container-links"
     >
@@ -32,15 +61,10 @@ exports[`ContactMe renders correctly 1`] = `
           src="icon-github.png"
         />
       </a>
-      <a
-        href="mailto:joshkkuhn@gmail.com"
-      >
-        <img
-          alt="email"
-          src="icon-email.png"
-        />
-      </a>
     </div>
+    <strong>
+      Created by Joshua Kuhn
+    </strong>
   </div>
 </DocumentFragment>
 `;

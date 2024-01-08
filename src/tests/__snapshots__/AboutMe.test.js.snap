@@ -16,12 +16,11 @@ exports[`AboutMe renders correctly 1`] = `
         <h1>
           Hello!
         </h1>
+        <h1>
+          I'm Joshua Kuhn.
+        </h1>
         <p>
-          My name is 
-          <strong>
-            Joshua Kuhn.
-          </strong>
-           I'm a project manager currently based in Belfast, UK. I have a passion for 
+          I'm a project manager currently based in Belfast, UK. I have a passion for 
           <strong>
             project management
           </strong>
@@ -50,79 +49,133 @@ exports[`AboutMe renders correctly 1`] = `
     <div
       class="skills-container"
     >
+      <h1>
+        Skills
+      </h1>
       <div
-        class="skills-container-images"
+        class="skills"
       >
-        <div>
-          <img
-            alt="javascript"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-          />
+        <div
+          class="skills-type"
+        >
+          <h2>
+            Front-End
+          </h2>
+          <div
+            class="skills-images"
+          >
+            <div>
+              <img
+                alt="html5"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              />
+            </div>
+            <div>
+              <img
+                alt="css3"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              />
+            </div>
+            <div>
+              <img
+                alt="javascript"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              />
+            </div>
+            <div>
+              <img
+                alt="react"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              />
+            </div>
+            <div>
+              <img
+                alt="figma"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+              />
+            </div>
+          </div>
         </div>
-        <div>
-          <img
-            alt="react"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-          />
+        <div
+          class="skills-type"
+        >
+          <h2>
+            Back-End
+          </h2>
+          <div
+            class="skills-images"
+          >
+            <div>
+              <img
+                alt="nodejs"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+              />
+            </div>
+            <div>
+              <img
+                alt="sequelize"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg"
+              />
+            </div>
+            <div>
+              <img
+                alt="postgresql"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+              />
+            </div>
+            <div>
+              <img
+                alt="docker"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+              />
+            </div>
+            <div>
+              <img
+                alt="amazonwebservices"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+              />
+            </div>
+          </div>
         </div>
-        <div>
-          <img
-            alt="html5"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-          />
+        <div
+          class="skills-type"
+        >
+          <h2>
+            Other
+          </h2>
+          <div
+            class="skills-images"
+          >
+            <div>
+              <img
+                alt="bash"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
+              />
+            </div>
+            <div>
+              <img
+                alt="git"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              />
+            </div>
+            <div>
+              <img
+                alt="github"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              />
+            </div>
+            <div>
+              <img
+                alt="wordpress"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg"
+              />
+            </div>
+            <img
+              alt="asana"
+              src="https://cdn.worldvectorlogo.com/logos/asana-logo.svg"
+            />
+          </div>
         </div>
-        <div>
-          <img
-            alt="css3"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-          />
-        </div>
-        <div>
-          <img
-            alt="figma"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-          />
-        </div>
-        <div>
-          <img
-            alt="nodejs"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-          />
-        </div>
-        <div>
-          <img
-            alt="git"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-          />
-        </div>
-        <div>
-          <img
-            alt="postgresql"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-          />
-        </div>
-        <div>
-          <img
-            alt="docker"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
-          />
-        </div>
-        <div>
-          <img
-            alt="amazonwebservices"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
-          />
-        </div>
-        <div>
-          <img
-            alt="wordpress"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg"
-          />
-        </div>
-        <img
-          alt="asana"
-          src="https://cdn.worldvectorlogo.com/logos/asana-logo.svg"
-        />
       </div>
     </div>
     <div
@@ -132,6 +185,35 @@ exports[`AboutMe renders correctly 1`] = `
       <h2>
         Let's keep in touch! :)
       </h2>
+      <form>
+        <input
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required=""
+          type="text"
+          value=""
+        />
+        <input
+          id="email"
+          name="email"
+          placeholder="Your Email"
+          required=""
+          type="email"
+          value=""
+        />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Message"
+          required=""
+        />
+        <button
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
       <div
         class="contactme-container-links"
       >
@@ -155,15 +237,10 @@ exports[`AboutMe renders correctly 1`] = `
             src="icon-github.png"
           />
         </a>
-        <a
-          href="mailto:joshkkuhn@gmail.com"
-        >
-          <img
-            alt="email"
-            src="icon-email.png"
-          />
-        </a>
       </div>
+      <strong>
+        Created by Joshua Kuhn
+      </strong>
     </div>
   </div>
 </DocumentFragment>
